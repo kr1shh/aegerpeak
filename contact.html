@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aigerpeak Electrical Services</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script.js"></script>
+    <style>
+                     .social-media-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Space between icons */
+    margin-top: 10px;
+}
+
+.social-media-links a {
+    color: white; /* Default icon color */
+    font-size: 24px; /* Icon size */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.social-media-links a:hover {
+    color: #0073e6; /* Icon color on hover */
+}
+        
+    </style>
+</head>
+<body>
+    <nav class="navbar ">
+        <img src="./assets/Logo2.png" alt="Aigerpeak Logo" class="logo">
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="peic.html">PEIC</a>
+        <a href="about_owner.html">About Owner</a>
+        <a href="servies.html">Our Services</a>
+        <a href="./carrier.html">Career</a>
+        <a href="contact.html">Contact Us</a>
+        </div>
+        <a class="hamburger" onclick="toggleMenu()"><i class="fa fa-bars"></i></a>
+    </nav>
+    <div class="dropdown">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="peic.html">PEIC</a>
+        <a href="about_owner.html">About Owner</a>
+        <a href="servies.html">Our Services</a>
+        <a href="./carrier.html">Carier</a>
+        <a href="contact.html">Contact Us</a>
+    </div>
+
+      <!-- Footer -->
+      <section class="contact-section" id="contact-section" >
+        <h2 class="contact-title" style="color: white;">Contact Us</h2>
+        <form class="contact-form" style="margin-top: 150px;">
+            <div class="form-full">
+                <input type="text" placeholder="Name *" required>
+           
+            </div>
+            <div class="form-full">
+                <input type="email" placeholder="Email *" required>
+            </div>
+            <div class="form-full">
+                <input type="email" placeholder="Adress*" required>
+            </div>
+            <div class="form-row">
+                <input type="text" placeholder="Post office*" required>
+                <input type="text" placeholder="District*" required>
+            </div>
+            <div class="form-row">
+                <input type="text" placeholder="Building square feet area*" required>
+                <input type="text" placeholder="Age of building*" required>
+            </div>
+            
+            <div class="form-full file-input-container">
+                <label class="file-label">Electricity Bill</label>
+                <input type="file" id="file-upload">
+                <button type="button" class="file-upload-btn" onclick="document.getElementById('file-upload').click();">
+                    <svg class="upload-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                        <polyline points="17 8 12 3 7 8"/>
+                        <line x1="12" y1="3" x2="12" y2="15"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="form-full">
+                <textarea placeholder="Describe your problem" rows="5"></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+        
+       
+    </section>
+
+    <a href="https://wa.me/+919605933000" class="whatsapp-button" target="_blank">
+        <i class="fa fa-whatsapp"></i>
+    </a>
+    <a href="tel:+919605933000" class="phone-button" target="_blank">
+        <i class="fa fa-phone"></i>
+    </a>
+
+    <footer class="footer">
+        <div class="contact-info">
+            <p style="color: #f9f9f9;">Tel: +919605933000</p>
+            <p style="color: #f9f9f9;">Address: Kochi, Kerala, India | Email: aigerpeak.helpdesk@gmail.com</p>
+        </div>
+        <div class="social-media-links">
+            <a href="https://www.facebook.com/profile.php?id=61556776477252" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.youtube.com/@Aigerpeak" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-youtube"></i>
+            </a>
+            <a href="https://instagram.com/aigerpeak" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-instagram"></i>
+            </a>
+           
+        </div>
+        <p>© 2025 Aigerpeak</p>
+    </footer>
+</body>

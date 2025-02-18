@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script.js"></script>
+   
+    <style>
+        .social-media-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Space between icons */
+    margin-top: 10px;
+}
+
+.social-media-links a {
+    color: white; /* Default icon color */
+    font-size: 24px; /* Icon size */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.social-media-links a:hover {
+    color: #0073e6; /* Icon color on hover */
+}
+    /* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* About Section */
+.about-section {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+.about-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Equal width for both sections */
+    gap: 0; /* No gap between the sections */
+    align-items: center;
+}
+
+/* Image Section */
+.image-section {
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Ensures the image doesn't overflow */
+}
+
+.image-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the container without distortion */
+}
+
+/* Text Section */
+.text-section {
+    padding: 20px; /* Add padding for better spacing */
+}
+
+/* Custom Section */
+.custom-section {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.custom-section h2 {
+    color: #444;
+}
+
+.custom-section p {
+    max-width: 800px;
+    margin: 0 auto 20px;
+    color: #666;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about-content {
+        grid-template-columns: 1fr; /* Stack sections on smaller screens */
+    }
+
+    .image-section {
+        height: 400px; /* Fixed height for the image section on smaller screens */
+    }
+
+    .text-section {
+        padding: 20px 0; /* Adjust padding for smaller screens */
+    }
+}
+    </style>
+</head>
+<body>
+    <nav class="navbar ">
+        <img src="./assets/Logo2.png" alt="Aigerpeak Logo" class="logo">
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="peic.html">PEIC</a>
+        <a href="about_owner.html">About Owner</a>
+        <a href="servies.html">Our Services</a>
+        <a href="contact.html">Contact Us</a>
+        </div>
+        <a class="hamburger" onclick="toggleMenu()"><i class="fa fa-bars"></i></a>
+    </nav>
+    <div class="dropdown">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="peic.html">PEIC</a>
+        <a href="about_owner.html">About Owner</a>
+        <a href="servies.html">Our Services</a>
+        <a href="contact.html">Contact Us</a>
+    </div>
+    
+    <section class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <!-- Image Section -->
+                <div class="image-section">
+                    <img src="assets/roopesh.jpg" alt="About Us Image">
+                </div>
+                <!-- Paragraph Section -->
+                <div class="text-section">
+                    <h2>About the Owner – Roopesh Pathalil
+                    </h2>
+                    <p>Roopesh Pathalil is the Founder and Managing Director of Aigerpeak LLP and Rapid Action Team (RAT). With over 10 years of expertise in electrical contracting and maintenance, he specializes in post-installation electrical consulting to ensure optimized system performance, safety assurance, reliability, energy bill optimization, and complaint reduction.
+                        Holding a Diploma in Electronics & Communication from SN Polytechnic, Kanjanhad, and a BBA degree, Roopesh has a strong technical background. His experience includes seven years as a Junior Electrical Engineer at Amrita Vishwa Vidyapeetham, Kollam, one year in HT electrical systems at SP Engineer, Muvattupuzha, and two years in solar installation at Amrita Nano Solar, Ernakulam.
+
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="why-choose-section" id="why-choose-section">
+        
+        <div class="why-choose-grid">
+            <div class="why-choose-card block">
+                
+                <p style="font-size: larger;">At Aigerpeak LLP, Roopesh focuses on helping clients efficiently manage their electrical systems after installation. His consulting expertise ensures:
+                </p>
+                <a href="#" class="learn-more">Learn More</a>
+            </div>
+            <div class="why-choose-card block">
+                <p  style="font-size: larger;">Optimized electrical performance for maximum efficiency.
+                </p>
+                <a href="#" class="learn-more">Learn More</a>
+            </div>
+            <div class="why-choose-card block">
+                <p style="font-size: larger;">Safety assurance, covering human safety, wiring safety, and appliance safety.
+                </p>
+                <a href="#" class="learn-more">Learn More</a>
+            </div>
+            <div class="why-choose-card block">
+                <p style="font-size: larger;">Enhanced reliability, reducing failures and downtime.
+
+                </p>
+                <a href="#" class="learn-more">Learn More</a>
+            </div>
+            <div class="why-choose-card block">
+               
+                <p style="font-size: larger;">
+                    Energy bill optimization through smart load management, power factor correction, and energy-efficient solutions.
+                      </p>
+                <a href="#" class="learn-more">Learn More</a>
+            </div>
+            <div class="why-choose-card block">
+                <p style="font-size: larger;">Complaint reduction by identifying and resolving potential issues proactively.
+                </p>
+                <a href="#" class="learn-more">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <section class="custom-section">
+        <div class="container">
+            <h2>Our Mission</h2>
+            <p>By combining technical precision, energy efficiency strategies, and safety-focused practices, Roopesh ensures that electrical systems are cost-effective, secure, and long-lasting. His vision is to help clients save energy, reduce costs, and maintain a safe and reliable electrical infrastructure.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="contact-section" id="contact-section">
+        <h2 class="contact-title" style="color: white;">Contact Us</h2>
+        <form class="contact-form">
+            <div class="form-full">
+                <input type="text" placeholder=" Name *" required>
+           
+            </div>
+            <div class="form-full">
+                <input type="email" placeholder="Email *" required>
+            </div>
+            <div class="form-full">
+                <input type="email" placeholder="Adress*" required>
+            </div>
+            <div class="form-row">
+                <input type="text" placeholder="Post office*" required>
+                <input type="text" placeholder="District*" required>
+            </div>
+            <div class="form-row">
+                <input type="text" placeholder="Building square feet area*" required>
+                <input type="text" placeholder="Age of building*" required>
+            </div>
+            
+            <div class="form-full file-input-container">
+                <label class="file-label">Electricity Bill</label>
+                <input type="file" id="file-upload">
+                <button type="button" class="file-upload-btn" onclick="document.getElementById('file-upload').click();">
+                    <svg class="upload-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                        <polyline points="17 8 12 3 7 8"/>
+                        <line x1="12" y1="3" x2="12" y2="15"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="form-full">
+                <textarea placeholder="Describe your problem" rows="5"></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+        <div class="contact-info">
+            <p style="color: #f9f9f9;"> <b>Tel: +919605933000</b></p>
+            <p style="color: #f9f9f9;">Address: Kochi, Kerala, India | Email: aigerpeak.helpdesk@gmail.com</p>
+        </div>
+    </section>
+
+    <a href="https://wa.me/+919605933000" class="whatsapp-button" target="_blank">
+        <i class="fa fa-whatsapp"></i>
+    </a>
+    <a href="tel:+919605933000" class="phone-button" target="_blank">
+        <i class="fa fa-phone"></i>
+    </a>
+
+    <footer class="footer">
+        <p>© 2025 Aigerpeak</p>
+        <div class="social-media-links">
+            <a href="https://www.facebook.com/profile.php?id=61556776477252" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.youtube.com/@Aigerpeak" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-youtube"></i>
+            </a>
+            <a href="https://instagram.com/aigerpeak" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-instagram"></i>
+            </a>
+           
+        </div>
+    </footer>
+</body>
+</html>
