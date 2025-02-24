@@ -11,230 +11,249 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="script.js"></script>
     <style>
-         .social-media-links {
-    display: flex;
-    justify-content: center;
-    gap: 15px; /* Space between icons */
-    margin-top: 10px;
-}
-
-.social-media-links a {
-    color: white; /* Default icon color */
-    font-size: 24px; /* Icon size */
-    transition: color 0.3s ease; /* Smooth color transition */
-}
-
-.social-media-links a:hover {
-    color: #0073e6; /* Icon color on hover */
-}
+        .social-media-links {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            /* Space between icons */
+            margin-top: 10px;
+        }
+    
+        .social-media-links a {
+            color: white;
+            /* Default icon color */
+            font-size: 24px;
+            /* Icon size */
+            transition: color 0.3s ease;
+            /* Smooth color transition */
+        }
+    
+        .social-media-links a:hover {
+            color: #0073e6;
+            /* Icon color on hover */
+        }
+    
         /* About Section Styling */
-.about-section {
-    padding: 80px 10px;
-    background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
-}
-
-.section-heading {
-    text-align: center;
-    margin-bottom: 50px;
-}
-
-.section-heading h2 {
-    font-size: 36px;
-    color: #2c3e50;
-    margin-bottom: 15px;
-    position: relative;
-    display: inline-block;
-}
-
-.heading-divider {
-    width: 60px;
-    height: 3px;
-    background: #0073e6;
-    margin: 0 auto;
-    border-radius: 2px;
-}
-
-.about-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    gap: 40px;
-    align-items: center;
-}
-
-/* Image Section */
-.about-image {
-    flex: 1;
-    position: relative;
-    overflow: hidden;
-    border-radius: 10px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-}
-
-.about-image img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    transition: transform 0.3s ease;
-}
-
-.hover-zoom:hover {
-    transform: scale(1.03);
-}
-
-/* Content Section */
-.about-content {
-    flex: 1;
-    padding: 5px;
-}
-
-.about-content h3 {
-    font-size: 28px;
-    color: #2c3e50;
-    margin-bottom: 20px;
-}
-
-.highlight-text {
-    font-size: 18px;
-    color: #0073e6;
-    line-height: 1.6;
-    margin-bottom: 25px;
-    font-weight: 500;
-}
-
-.content-box {
-    background: #ffffff;
-    padding: 10px;
-    border-radius: 8px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
-}
-
-.styled-list {
-    list-style: none;
-    padding: 0;
-    margin-bottom: 25px;
-}
-
-.styled-list li {
-    padding: 12px 0;
-    font-size: 16px;
-    color: #34495e;
-    border-bottom: 1px solid #eee;
-}
-
-.styled-list li:last-child {
-    border-bottom: none;
-}
-
-.icon {
-    color: #0073e6;
-    margin-right: 10px;
-    font-weight: bold;
-}
-
-.emphasis-text {
-    font-size: 16px;
-    color: #7f8c8d;
-    line-height: 1.7;
-    margin: 20px 0;
-}
-
-.cta-button {
-    display: inline-block;
-    padding: 12px 30px;
-    background: #0073e6;
-    color: white;
-    text-decoration: none;
-    border-radius: 25px;
-    transition: all 0.3s ease;
-}
-
-.cta-button:hover {
-    background: #0059b3;
-    transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(0,115,230,0.3);
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    .about-container {
-        flex-direction: column;
-    }
+        .about-section {
+            padding: 80px 10px;
+            background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+        }
     
-    .about-image, .about-content {
-        width: 100%;
-        flex: none;
-    }
+        .section-heading {
+            text-align: center;
+            margin-bottom: 50px;
+        }
     
-    .section-heading h2 {
-        font-size: 28px;
-    }
-}
+        .section-heading h2 {
+            font-size: 36px;
+            color: #2c3e50;
+            margin-bottom: 15px;
+            position: relative;
+            display: inline-block;
+        }
+    
+        .heading-divider {
+            width: 60px;
+            height: 3px;
+            background: #0073e6;
+            margin: 0 auto;
+            border-radius: 2px;
+        }
+    
+        .about-container {
+            max-width: 1200px;
+            display: flex;
+            gap: 40px;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        /* Image Section */
+        .about-image {
+            width: 20rem;
+            position: relative;
+            overflow: hidden;
+        }
+    
+        .about-image img {
+            width: 100%;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+    
+        .hover-zoom:hover {
+            transform: scale(1.03);
+        }
+    
+        /* Content Section */
+        .about-content {
+            flex: 1;
+            padding: 5px;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+    
+        .about-content h3 {
+            font-size: 28px;
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+    
+        .highlight-text {
+            font-size: 18px;
+            color: #0073e6;
+            line-height: 1.6;
+            margin-bottom: 25px;
+            font-weight: 500;
+        }
+    
+        .content-box {
+            background: #ffffff;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+        }
+    
+        .styled-list {
+            list-style: none;
+            padding: 0;
+            margin-bottom: 25px;
+        }
+    
+        .styled-list li {
+            padding: 12px 0;
+            font-size: 16px;
+            color: #34495e;
+            border-bottom: 1px solid #eee;
+        }
+    
+        .styled-list li:last-child {
+            border-bottom: none;
+        }
+    
+        .icon {
+            color: #0073e6;
+            margin-right: 10px;
+            font-weight: bold;
+        }
+    
+        .emphasis-text {
+            font-size: 16px;
+            color: #7f8c8d;
+            line-height: 1.7;
+            margin: 20px 0;
+        }
+    
+        .cta-button {
+            display: inline-block;
+            padding: 12px 30px;
+            background: #0073e6;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+        }
+    
+        .cta-button:hover {
+            background: #0059b3;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 115, 230, 0.3);
+        }
+    
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .about-container {
+                flex-direction: column;
+            }
+    
+            .about-image,
+            .about-content {
+                width: 100%;
+                flex: none;
+            }
+    
+            .section-heading h2 {
+                font-size: 28px;
+            }
+        }
+    
         /* General Styles */
         /* General Section Styling */
-.mission-vision-section {
-    padding: 50px 20px;
-    background-color: #f8f9fa; /* Light background color */
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    gap: 30px; /* Space between Vision and Mission sections */
-}
-
-/* Vision Box Styling */
-.vision-box {
-    flex: 1; /* Takes 1 part of the available space */
-    background-color: #ffffff; /* White background */
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-}
-
-.vision-box h2 {
-    font-size: 24px;
-    color: #333;
-    margin-bottom: 15px;
-}
-
-.vision-box p {
-    font-size: 16px;
-    color: #666;
-    line-height: 1.6;
-}
-
-/* Mission Boxes Styling */
-.mission-boxes {
-    flex: 2; /* Takes 2 parts of the available space */
-}
-
-.mission-boxes h2 {
-    font-size: 24px;
-    color: #333;
-    margin-bottom: 20px;
-}
-
-.mission-point {
-    background-color: #ffffff; /* White background */
-    padding: 15px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    margin-bottom: 15px; /* Space between mission points */
-}
-
-.mission-point h3 {
-    font-size: 18px;
-    color: #0073e6; /* Blue color for headings */
-    margin-bottom: 10px;
-}
-
-.mission-point p {
-    font-size: 14px;
-    color: #666;
-    line-height: 1.6;
-}
+        .mission-vision-section {
+            padding: 50px 20px;
+            background-color: #f8f9fa;
+            /* Light background color */
+        }
+    
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            gap: 30px;
+            /* Space between Vision and Mission sections */
+        }
+    
+        /* Vision Box Styling */
+        .vision-box {
+            flex: 1;
+            /* Takes 1 part of the available space */
+            background-color: #ffffff;
+            /* White background */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            /* Subtle shadow */
+        }
+    
+        .vision-box h2 {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 15px;
+        }
+    
+        .vision-box p {
+            font-size: 16px;
+            color: #666;
+            line-height: 1.6;
+        }
+    
+        /* Mission Boxes Styling */
+        .mission-boxes {
+            flex: 2;
+            /* Takes 2 parts of the available space */
+        }
+    
+        .mission-boxes h2 {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+    
+        .mission-point {
+            background-color: #ffffff;
+            /* White background */
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            /* Subtle shadow */
+            margin-bottom: 15px;
+            /* Space between mission points */
+        }
+    
+        .mission-point h3 {
+            font-size: 18px;
+            color: #0073e6;
+            /* Blue color for headings */
+            margin-bottom: 10px;
+        }
+    
+        .mission-point p {
+            font-size: 14px;
+            color: #666;
+            line-height: 1.6;
+        }
+    
         body {
             font-family: 'Arial', sans-serif;
             margin: 0;
@@ -242,20 +261,23 @@
             color: #333;
             line-height: 1.6;
         }
-
-        h1, h2, h3 {
+    
+        h1,
+        h2,
+        h3 {
             margin: 0;
             padding: 0;
         }
-
+    
         a {
             text-decoration: none;
             color: inherit;
         }
-
+    
         /* Hero Section */
         #hero {
-            background-image: url('./assets/aigerpeak_about.jpg'); /* Replace with your image */
+            background-image: url('./assets/aigerpeak_about.jpg');
+            /* Replace with your image */
             background-size: cover;
             background-position: center;
             height: 60vh;
@@ -266,7 +288,7 @@
             color: white;
             position: relative;
         }
-
+    
         #hero::before {
             content: '';
             position: absolute;
@@ -274,26 +296,27 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+            background: rgba(0, 0, 0, 0.5);
+            /* Dark overlay */
         }
-
+    
         #hero div {
             position: relative;
             z-index: 1;
         }
-
+    
         #hero h1 {
             font-size: 3.5rem;
             margin-bottom: 20px;
             animation: fadeIn 2s ease-in-out;
         }
-
+    
         #hero p {
             font-size: 1.2rem;
             margin-bottom: 30px;
             animation: fadeIn 2.5s ease-in-out;
         }
-
+    
         #hero a {
             background-color: #007BFF;
             color: white;
@@ -302,31 +325,31 @@
             font-size: 1rem;
             transition: background-color 0.3s ease;
         }
-
+    
         #hero a:hover {
             background-color: #0056b3;
         }
-
+    
         /* Expertise Section */
         #expertise {
             padding: 80px 20px;
             text-align: center;
             background-color: #f9f9f9;
         }
-
+    
         #expertise h2 {
-            font-size: 2.5rem;
+            font-size: 2rem;
             margin-bottom: 40px;
             color: #007BFF;
         }
-
+    
         .expertise-grid {
             display: flex;
-            justify-content: space-around;
+            justify-content: center;
             flex-wrap: wrap;
             gap: 20px;
         }
-
+    
         .expertise-box {
             background: white;
             padding: 30px;
@@ -335,29 +358,29 @@
             width: 30%;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
-
+    
         .expertise-box:hover {
             transform: translateY(-10px);
             box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
         }
-
+    
         .expertise-box img {
             width: 60px;
             height: 60px;
             margin-bottom: 20px;
         }
-
+    
         .expertise-box h3 {
             font-size: 1.5rem;
             margin-bottom: 15px;
             color: #333;
         }
-
+    
         .expertise-box p {
             font-size: 1rem;
             color: #666;
         }
-
+    
         /* Footer */
         footer {
             background-color: #333;
@@ -365,72 +388,76 @@
             text-align: center;
             padding: 20px;
         }
-
+    
         footer p {
             margin: 5px 0;
         }
-
+    
         footer a {
             color: #007BFF;
         }
-
+    
         footer a:hover {
             text-decoration: underline;
         }
-
+    
         /* Animations */
         @keyframes fadeIn {
             from {
                 opacity: 0;
             }
+    
             to {
                 opacity: 1;
             }
         }
-
+    
         /* Responsive Design */
         @media (max-width: 768px) {
             #hero {
-            background-image: url('./assets/aigerpeak_about.jpg'); /* Replace with your image */
-            background-size: cover;
-            background-position: center;
-            height: 60vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            color: white;
-            position: relative;
-        }
+                background-image: url('./assets/aigerpeak_about.jpg');
+                /* Replace with your image */
+                background-size: cover;
+                background-position: center;
+                height: 60vh;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                color: white;
+                position: relative;
+            }
+    
             #hero h1 {
                 font-size: 2.5rem;
             }
-
+    
             #hero p {
                 font-size: 1rem;
             }
-
+    
             .expertise-box {
                 width: 100%;
                 margin-bottom: 20px;
             }
         }
+    
         /* Custom Section */
-.custom-section {
-    background-color: #fff;
-    padding: 50px 0;
-    text-align: center;
-}
-
-.custom-section h2 {
-    color: #444;
-}
-
-.custom-section p {
-    max-width: 800px;
-    margin: 0 auto 20px;
-    color: #666;
-}
+        .custom-section {
+            background-color: #fff;
+            padding: 50px 0;
+            text-align: center;
+        }
+    
+        .custom-section h2 {
+            color: #444;
+        }
+    
+        .custom-section p {
+            max-width: 800px;
+            margin: 0 auto 20px;
+            color: #666;
+        }
     </style>
 </head>
 <body>
@@ -489,14 +516,14 @@
                         Based in Kochi, Kerala, Aigerpeak serves residential, commercial, and industrial clients across the region. With a team of skilled engineers and industry experts, we analyze, upgrade, and fine-tune electrical setups, ensuring they meet the highest standards of safety, compliance, and efficiency. Whether you're installing a new electrical system or improving an existing one, Aigerpeak provides tailored solutions to maximize your investment.
 
                     </p>
-                    <a href="#" class="cta-button">Learn More →</a>
+                    <!-- <a href="#" class="cta-button">Learn More →</a> -->
                 </div>
             </div>
         </div>
     </section>
     <!-- Expertise Section -->
     <section id="expertise">
-        <h2 style="color: red;">Our Expertise</h2>
+        <h2 class="sub-heading">Our commitment to excellence</h2>
         <div class="expertise-grid">
             <div class="expertise-box">
                 
@@ -516,14 +543,7 @@
                 <p> Ensuring human safety, wiring integrity, and appliance longevity through expert assessment and preventive measures
                 </p>
             </div>
-            <div class="expertise-box">
-                
-                <h3>Energy Bill Optimization</h3>
-                <p>Implementing load management and efficiency strategies to reduce operational costs.
 
-
-                </p>
-            </div>
             <div class="expertise-box">
                 
                 <h3>Energy Bill Optimization</h3>
@@ -609,16 +629,53 @@
         <div class="about-container">
             <!-- Left Side Image -->
             <div class="about-image">
-                <img src="./assets/Aigerpeak-Logo2.png" alt="About Us" class="hover-zoom">
+                <img src="./assets/Aigerpeak_logo_png.png" alt="About Us" class="hover-zoom">
             </div>
     
             <!-- Right Side Content -->
             <div class="about-content">
-               
-                <p class="highlight-text">
-                    At Aigerpeak, we go beyond electrical installations—we optimize, enhance, and protect electrical systems to ensure long-term performance, safety, and cost efficiency. Specializing in post-installation consulting and execution, we help clients achieve seamless operations, reduced energy costs, and a secure electrical infrastructure
-                </p>
-               
+                <div class="content-item">
+                    <span class="item-indicator"></span>
+                    <p>
+                        The Aigerpeak logo represents strength, reliability, and leadership.
+                    </p>
+                </div>
+
+                <div class="content-item">
+                    <span class="item-indicator"></span>
+                    <p>
+                        The Mountain – Symbolizes stability and a strong foundation.
+                    </p>
+                </div>
+                <div class="content-item">
+                    <span class="item-indicator"></span>
+                    <p>
+                        The Continuous Middle Section – Reflects consistency and trustworthiness.
+                    </p>
+                </div>
+                <div class="content-item">
+                    <span class="item-indicator"></span>
+                    <p>
+                        The Crown – Represents authority, excellence, and industry leadership.
+                    </p>
+                </div>
+                <div class="content-item">
+                    <span class="item-indicator"></span>
+                    <p>
+                        The Torch – Signifies guidance, innovation, and responsibility.
+                    </p>
+                </div>
+                <div class="content-item">
+                    <span class="item-indicator"></span>
+                    <p>
+                        The Red Color – Stands for passion, energy, and commitment.
+                    </p>
+                </div>
+                <div class="content-item">
+                    <span class="item-indicator"></span>
+                    <p>
+                        The logo embodies Aigerpeak’s dedication to quality, safety, and excellence, making it a trusted name in the industry.
+                    </p>
                 </div>
             </div>
         </div>
