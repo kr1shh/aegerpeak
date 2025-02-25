@@ -2,6 +2,9 @@ const servicesData = [
   {
     id: "energy",
     title: "Energy Bill Optimization PEIC",
+    question: "Are You Spending More Than Necessary on Electricity?",
+    details:
+      "Our Energy Bill Optimization PEIC helps you reduce energy costs, improve system efficiency, and eliminate hidden energy losses. Through advanced diagnostics, we analyze power factor, harmonics, earth leakage, HVAC energy consumption, and smart automation solutions to help you optimize your electricity usage.",
     taglines: ["Reduce Costs", "Improve Efficiency", "Minimize Energy Waste"],
     benefits: [
       "Lowers Energy Costs – Reduces unnecessary electricity consumption.",
@@ -28,7 +31,9 @@ const servicesData = [
           "Load Consumption Assessment – Reviews power usage in major appliances.",
           "HVAC System Energy Evaluation – Identifies efficiency issues in air conditioning & heating.",
         ],
-        taglines: ["Ideal for small setups looking for cost-effective energy savings!"],
+        taglines: [
+          "Ideal for small setups looking for cost-effective energy savings!",
+        ],
       },
       {
         level: "advanced",
@@ -76,6 +81,9 @@ const servicesData = [
   {
     id: "safety-assessment",
     title: "Safety Assessment PEIC",
+    question: "Is Your Electrical System Truly Safe?",
+    details:
+      "Safety Assessment PEIC is designed to identify potential electrical risks, ensure compliance with safety standards, and protect lives and property. Our comprehensive evaluation helps detect faulty wiring, grounding issues, and malfunctioning protection devices, ensuring a safe and hazard-free environment for residential, commercial, and industrial spaces.",
     taglines: ["Ensure Electrical Safety", "Prevent Hazards", "Stay Compliant"],
     benefits: [
       "Protects Lives & Property – Reduces risks of electrical shocks and fires.",
@@ -153,6 +161,9 @@ const servicesData = [
   {
     id: "risk-analysis",
     title: "Risk Analysis – PEIC",
+    question: "Is Your Electrical System at Risk?",
+    details:
+      "Our Risk Analysis PEIC evaluates potential electrical hazards, system inefficiencies, and compliance gaps to prevent costly failures. This assessment helps businesses, industries, and homeowners mitigate risks before they escalate into serious safety or operational issues.",
     taglines: [
       "Identifying Risks",
       "Preventing Failures",
@@ -232,7 +243,14 @@ const servicesData = [
   {
     id: "power-reliability",
     title: "Power Reliability – PEIC",
-    taglines: ["Ensuring Stable Power", "Preventing Failures", "Maximizing Efficiency"],
+    question: "Is Your Power Supply Truly Reliable?",
+    details:
+      "Our Power Reliability PEIC ensures that your electrical system receives a stable and consistent power supply from the grid while maintaining an optimized internal distribution. This assessment helps homes, businesses, and industries prevent unexpected failures, optimize load management, and improve backup power efficiency.",
+    taglines: [
+      "Ensuring Stable Power",
+      "Preventing Failures",
+      "Maximizing Efficiency",
+    ],
     benefits: [
       "Ensures Stable Grid Power Supply – Prevents voltage fluctuations and blackouts.",
       "Optimizes On-Site Power Distribution – Prevents overloads and inefficiencies.",
@@ -258,7 +276,9 @@ const servicesData = [
           "Load Management & Overload Prevention Check",
           "Basic Backup Power Readiness Check (UPS/Inverter/Generator)",
         ],
-        taglines: ["Ideal for ensuring basic power stability at home or in small offices!"],
+        taglines: [
+          "Ideal for ensuring basic power stability at home or in small offices!",
+        ],
       },
       {
         level: "advanced",
@@ -303,7 +323,14 @@ const servicesData = [
   {
     id: "cost-optimization",
     title: "Cost Optimization – PEIC",
-    taglines: ["Cut Unnecessary Expenses", "Improve Efficiency", "Prevent Failures"],
+    question: "Are You Spending More Than Necessary on Electrical Operations?",
+    details:
+      "Our Cost Optimization PEIC helps homes, businesses, and industries reduce operational costs by analyzing power consumption, detecting inefficiencies, and optimizing energy usage. It focuses on power factor correction, equipment efficiency, HVAC optimization, energy leakage prevention, and preventive maintenance to ensure your electrical system runs at its highest efficiency.",
+    taglines: [
+      "Cut Unnecessary Expenses",
+      "Improve Efficiency",
+      "Prevent Failures",
+    ],
     benefits: [
       "Lowers Energy Bills – Identifies and eliminates wasteful power consumption.",
       "Improves Power Factor – Minimizes reactive power losses.",
@@ -330,7 +357,9 @@ const servicesData = [
           "Backup Power Consumption Review",
           "Preventive Maintenance Recommendations",
         ],
-        taglines: ["Ideal for reducing unnecessary energy expenses at a small scale!"],
+        taglines: [
+          "Ideal for reducing unnecessary energy expenses at a small scale!",
+        ],
       },
       {
         level: "advanced",
@@ -376,7 +405,14 @@ const servicesData = [
   {
     id: "machinery-efficiency",
     title: "Machinery Efficiency Improvisation – PEIC",
-    taglines: ["Enhance Performance", "Reduce Energy Waste", "Extend Equipment Lifespan"],
+    question: "Is Your Machinery Operating at Peak Efficiency?",
+    details:
+      "Our Machinery Efficiency Improvisation PEIC helps businesses and industries optimize their electrical machinery for maximum efficiency, reduced energy consumption, and extended operational life. It includes machinery performance analysis, energy consumption reviews, and tailored automation solutions.",
+    taglines: [
+      "Enhance Performance",
+      "Reduce Energy Waste",
+      "Extend Equipment Lifespan",
+    ],
     benefits: [
       "Machinery Performance Analysis – Identifies underperforming equipment and areas for improvement.",
       "Energy Consumption Analysis – Reduces waste and improves energy efficiency.",
@@ -403,7 +439,9 @@ const servicesData = [
           "Preventive Maintenance Recommendations",
           "Motor & Drive System Evaluation",
         ],
-        taglines: ["Ideal for improving machinery efficiency in small operations!"],
+        taglines: [
+          "Ideal for improving machinery efficiency in small operations!",
+        ],
       },
       {
         level: "advanced",
@@ -421,7 +459,9 @@ const servicesData = [
           "Thermal Imaging to Identify Overheating Components",
           "Custom Automation Solutions for Machine Control & Monitoring",
         ],
-        taglines: ["A detailed plan for improved energy savings and machinery reliability!"],
+        taglines: [
+          "A detailed plan for improved energy savings and machinery reliability!",
+        ],
       },
       {
         level: "premium",
@@ -449,7 +489,14 @@ const servicesData = [
   {
     id: "peia",
     title: "Post Electrical Integrated Automation (PEIA)",
-    taglines: ["Enhancing Automation", "Optimizing Energy", "Ensuring Reliability"],
+    question: "Is Your Electrical System Fully Optimized for Automation?",
+    details:
+      "Post Electrical Integrated Automation (PEIA) focuses on integrating smart automation, optimizing energy consumption, and ensuring seamless electrical operations. Our solutions help reduce energy costs, improve efficiency, and deliver reliable performance across residential, commercial, and industrial setups.",
+    taglines: [
+      "Enhancing Automation",
+      "Optimizing Energy",
+      "Ensuring Reliability",
+    ],
     benefits: [
       "Automated Energy Efficiency – Reduces energy wastage with smart systems.",
       "Improves System Reliability – Ensures stable operations with real-time monitoring.",
@@ -475,7 +522,9 @@ const servicesData = [
           "Basic Energy Management System (EMS) Setup (Monitoring energy consumption trends)",
           "Wiring & Grounding Inspection for Safety",
         ],
-        taglines: ["Ideal for basic automation and energy-saving improvements!"],
+        taglines: [
+          "Ideal for basic automation and energy-saving improvements!",
+        ],
       },
       {
         level: "advanced",
@@ -492,7 +541,9 @@ const servicesData = [
           "Customizable Control Systems for Industrial & Commercial Applications (Remote monitoring & operation)",
           "Power Factor & Harmonics Analysis to Reduce Energy Wastage",
         ],
-        taglines: ["Best for businesses seeking advanced automation and efficiency optimization!"],
+        taglines: [
+          "Best for businesses seeking advanced automation and efficiency optimization!",
+        ],
       },
       {
         level: "premium",
@@ -519,6 +570,10 @@ const servicesData = [
   {
     id: "renewable-energy",
     title: "Renewable Energy Integration PEIC",
+    question:
+      "Are You Ready to Integrate Renewable Energy into Your Electrical System?",
+    details:
+      "Renewable Energy Integration PEIC helps businesses, industries, and homeowners harness the power of solar, wind, and hybrid energy systems for energy efficiency, cost savings, and sustainability. It ensures seamless integration with existing electrical systems while supporting green energy initiatives.",
     taglines: ["Sustainable Power", "Smart Integration", "Maximum Efficiency"],
     benefits: [
       "Reduces Electricity Costs – Lower dependence on expensive grid power.",
@@ -592,7 +647,14 @@ const servicesData = [
   {
     id: "residential",
     title: "Residential PEIC",
-    taglines: ["Ensuring Safety", "Reducing Energy Bills", "Enhancing Power Reliability"],
+    question: "Is Your Home’s Electrical System Safe and Efficient?",
+    details:
+      "Our Residential PEIC ensures that your home's electrical system is safe, energy-efficient, and optimized for long-term reliability. It focuses on preventing electrical hazards, reducing energy bills, and enhancing backup power reliability for a secure home environment.",
+    taglines: [
+      "Ensuring Safety",
+      "Reducing Energy Bills",
+      "Enhancing Power Reliability",
+    ],
     benefits: [
       "Prevents Electrical Hazards – Identifies and corrects wiring & grounding issues.",
       "Reduces Energy Bills – Detects inefficiencies and optimizes power consumption.",
@@ -618,7 +680,9 @@ const servicesData = [
           "Backup Power System Inspection (Basic UPS & Inverters)",
           "Basic Earth Leakage Checkup",
         ],
-        taglines: ["Ideal for ensuring safety and efficiency in small residences!"],
+        taglines: [
+          "Ideal for ensuring safety and efficiency in small residences!",
+        ],
       },
       {
         level: "advanced",
@@ -637,7 +701,9 @@ const servicesData = [
           "Detailed Earth Leakage Checkup and Correction",
           "Earth Testing for Safety & Proper Grounding",
         ],
-        taglines: ["A complete solution for safe and efficient home electricity!"],
+        taglines: [
+          "A complete solution for safe and efficient home electricity!",
+        ],
       },
       {
         level: "premium",
@@ -664,6 +730,10 @@ const servicesData = [
   {
     id: "commercial",
     title: "Commercial PEIC",
+    question:
+      "Is Your Commercial Electrical System Safe, Efficient, and Cost-Effective?",
+    details:
+      "Our Commercial PEIC ensures that your business's electrical infrastructure is safe, optimized for energy efficiency, and compliant with industry regulations. It focuses on reducing operational costs, ensuring stable power distribution, and protecting critical equipment.",
     taglines: [
       "Ensuring Business Safety",
       "Reducing Operational Costs",
@@ -717,7 +787,9 @@ const servicesData = [
           "Power Factor Correction for Improved Efficiency",
           "Earth Testing for Safety & Proper Grounding",
         ],
-        taglines: ["A complete package for safety, efficiency, and cost savings!"],
+        taglines: [
+          "A complete package for safety, efficiency, and cost savings!",
+        ],
       },
       {
         level: "premium",
@@ -745,6 +817,10 @@ const servicesData = [
   {
     id: "industrial",
     title: "Industrial PEIC",
+    question:
+      "Is Your Industrial Electrical System Operating at Maximum Efficiency?",
+    details:
+      "Our Industrial PEIC ensures that your manufacturing unit, processing plant, or factory has a safe, optimized, and cost-efficient electrical infrastructure. It focuses on preventing electrical failures, reducing operational costs, and enhancing power stability while ensuring compliance with industry standards.",
     taglines: ["Optimize Power", "Enhance Safety", "Reduce Costs"],
     benefits: [
       "Prevents Electrical Failures – Detects and corrects inefficiencies before disruptions occur.",
@@ -824,75 +900,58 @@ const servicesData = [
     ],
   },
   {
-    id: "energy",
-    title: "Energy Bill Optimization PEIC",
-    taglines: ["Reduce Costs", "Improve Efficiency", "Minimize Energy Waste"],
+    id: "electrical-contracting",
+    title: "Electrical Contracting Services",
+    question: "Data not available",
+    details:
+      "We provide end-to-end electrical contracting services for residential, commercial, and industrial projects. From installation and automation to maintenance and energy efficiency, we ensure high-quality, compliant, and future-ready electrical systems with a 5-year preventive maintenance plan.",
+    taglines: ["Safe", "Reliable", "Future-Ready", "Maintenance-Backed"],
     benefits: [
-      "Lowers Energy Costs – Reduces unnecessary electricity consumption",
-      "Identifies & Fixes Energy Leakage – Prevents hidden power loss from wiring or faulty equipment",
-      "Optimizes Power Factor – Reduces penalties from poor power factor and enhances system efficiency",
-      "Improves HVAC Efficiency – Cuts down cooling/heating costs through better energy management",
-      "Reduces Harmonics Disturbances – Enhances power quality and prevents voltage fluctuations",
-      "Enhances System Performance – Ensures smooth operation of electrical appliances and machinery",
-      "Prevents Equipment Damage – Reduces stress on electrical components and extends lifespan",
-      "Smart Monitoring & Automation – Provides real-time data and control over energy consumption",
+      "Safe & Compliant Installations – Meets local and industry safety standards.",
+      "Reliable Power Distribution – Ensures stable and efficient energy flow.",
+      "Custom Solutions for Every Project – Designed to fit unique operational needs.",
+      "Energy-Efficient & Cost-Effective Systems – Reduces energy bills and operational costs.",
+      "Minimal Downtime & Maximum Productivity – Ensures seamless operations.",
+      "Advanced Automation & Smart Controls – Enhances convenience and energy savings.",
+      "Service Warranty & Long-Term Preventive Maintenance – Covers system reliability and longevity.",
     ],
     packages: [
       {
         level: "basic",
         name: "BASIC",
-        subtitle: "Essential Energy Optimization",
-        target: "For Homes & Small Offices",
+        subtitle: "Essential Electrical Contracting",
+        target: "For Homes & Small Businesses",
         description:
-          "Essential energy optimization services for small setups looking for cost-effective energy savings.",
+          "Essential electrical contracting services for safe and reliable installations.",
         price: "₹[X] + GST",
         features: [
-          "Basic Power Factor Analysis – Identifies power factor inefficiencies",
-          "Basic Earth Leakage Checkup – Detects minor leakage causing energy loss",
-          "Load Consumption Assessment – Reviews power usage in major appliances",
-          "HVAC System Energy Evaluation – Identifies efficiency issues in air conditioning & heating",
+          "Electrical wiring & structured cabling installation",
+          "Panel board setup & load balancing",
+          "Protection device installation (MCBs, RCCBs, surge protectors)",
+          "Basic grounding & earthing check",
+          "Backup power system integration (Inverters, UPS)",
+          "1-Year Service Warranty",
+          "5-Year Preventive Maintenance (Half-yearly inspections & minor corrections)",
         ],
-        taglines: ["Ideal for small setups looking for cost-effective energy savings!"],
+        taglines: [
+          "Ideal for homeowners and small businesses needing safe, reliable electrical installations!",
+        ],
       },
       {
         level: "advanced",
         name: "ADVANCED",
-        subtitle: "In-Depth Energy Optimization",
-        target: "For Commercial Establishments",
+        subtitle: "Comprehensive Electrical Contracting",
+        target: "For Commercial & Industrial Projects",
         description:
-          "Comprehensive services for businesses looking to lower energy bills and enhance system efficiency.",
+          "Comprehensive solutions for robust electrical infrastructure and automation.",
         price: "₹[X] + GST",
         features: [
-          "Detailed Power Factor Analysis & Correction – Optimizes energy efficiency & reduces power wastage",
-          "Detailed Earth Leakage Checkup & Correction – Identifies and fixes major leakage issues",
-          "Load Distribution & Balancing – Ensures stable and efficient power consumption",
-          "HVAC System Performance Optimization – Reduces unnecessary power usage",
-          "Harmonics Analysis – Detects distortions affecting equipment efficiency",
-          "Power Factor Optimization with Capacitor Bank Solutions – Enhances power efficiency & reduces demand charges",
+          "Includes everything in BASIC",
+          "Power distribution panel installation & circuit load management",
+          "Transformer & generator installation & integration",
         ],
         taglines: [
-          "Perfect for businesses looking to lower energy bills and enhance system efficiency!",
-        ],
-      },
-      {
-        level: "premium",
-        name: "PREMIUM",
-        subtitle: "Comprehensive Energy Cost Reduction",
-        target: "For Industrial Facilities & Large Businesses",
-        description:
-          "The ultimate solution for industries and high-energy businesses aiming for maximum savings.",
-        price: "₹[X] + GST",
-        features: [
-          "Smart Automation & IoT-Based Energy Monitoring – Track energy use in real time",
-          "Predictive Maintenance & Cost-Saving Strategies – Prevent energy waste before it happens",
-          "Custom Energy Usage Reports – Get advanced analytics for smarter decisions",
-          "Guaranteed Long-Term Cost Reduction – Maximize savings and efficiency",
-          "Leakage Prevention Through Smart Sensors & AI-Based Monitoring – Continuous tracking to eliminate energy wastage",
-          "Harmonics Analysis & Filtering – Prevent overheating, equipment damage, and system inefficiencies",
-          "HVAC Smart Control & Automation – Implement advanced temperature control and energy-efficient HVAC solutions",
-        ],
-        taglines: [
-          "The ultimate solution for industries and high-energy businesses aiming for maximum savings!",
+          "Ideal for large-scale projects requiring advanced electrical solutions!",
         ],
       },
     ],

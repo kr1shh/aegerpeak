@@ -57,10 +57,28 @@ header p {
     margin-bottom: 30px;
 }
 
-.service-header h2 {
-    color: #2a5298;
+.service-header .heading-container {
     margin-bottom: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .8rem;
+}
+
+.heading-container h2{
     font-size: 1.8rem;
+    color: #2a5298;
+}
+
+.heading-container button{
+    color: #4f4f4f;
+    background-color: transparent;
+    border: 2px solid #4f4f4f;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50rem;
+    font-size: .8rem;
+    cursor: pointer;
 }
 
 .benefits-overview {
@@ -344,5 +362,69 @@ header p {
         font-weight: 600;
         background-color: #ffffff1f;
         letter-spacing: .3px;
+    }
+}
+
+.details-modal-container{
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    .details-modal{
+        position: relative;
+        background-color: #fff;
+        margin: 5% auto;
+        padding: 30px;
+        border-radius: 10px;
+        width: 90%;
+        max-width: 700px;
+        animation: modalOpen 0.4s;
+
+        .details-modal-header{
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 2rem;
+            align-items: center;
+
+            h1{
+                color: #2a5298;
+            }
+
+            span{
+                font-size: .8rem;
+                color: #ff0000;
+                font-weight: 500;
+                background-color: #ff000017;
+                padding: .1rem .8rem;
+                border-radius: 50rem;
+            }
+        }
+
+        .details-modal-close{
+            color: #555555;
+            font-size: 22px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: color 0.2s;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 2rem;
+            height: 2rem;
+            border-radius: .6rem;
+            border: none;
+            background-color: #f1f1f1;
+            transition: all .2s ease-in-out;
+
+            &:hover{
+                background-color:  #d7d7d7;
+            }
+        }
     }
 }

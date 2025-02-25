@@ -10,7 +10,10 @@ function generateServices() {
     serviceSection.className = "service-section";
     serviceSection.innerHTML = `
             <div class="service-header">
-                <h2>${service.title}</h2>
+                <div class="heading-container">
+                  <h2>${service.title}</h2>
+                  <button onclick="openDetailsModal('${service.id}')">?</button>
+                </div>
                 <div class="taglines">
                   ${
                     service.taglines
@@ -67,6 +70,7 @@ function generateServices() {
 
     servicesContainer.appendChild(serviceSection);
 
+
     service.packages.forEach((pkg) => {
       const modal = document.createElement("div");
       modal.id = `${service.id}-${pkg.level}-modal`;
@@ -111,6 +115,25 @@ function generateServices() {
       modalContainer.appendChild(modal);
     });
   });
+
+  servicesData.forEach((service) => {
+    const detailsModal = document.createElement("div");
+    detailsModal.id = `${service.id}-details-modal`;
+    detailsModal.className = "details-modal-container";
+    detailsModal.innerHTML = `
+              <div class="details-modal">
+                  <button class="details-modal-close" onclick="closeDetailsModal('${service.id}')">&times;</button>
+                  <div class="details-modal-header">
+                      <h1>${service.title}</h1>
+                      <span>${service.question}</span>
+                  </div>
+                  <div class="details-modal-content">
+                      ${service.details}
+                  </div>
+              </div>
+              `;
+    modalContainer.appendChild(detailsModal);
+  });
 }
 
 function openModal(id) {
@@ -120,6 +143,16 @@ function openModal(id) {
 
 function closeModal(id) {
   document.getElementById(id + "-modal").style.display = "none";
+  document.body.style.overflow = "auto";
+}
+
+function openDetailsModal(id) {
+  document.getElementById(id + "-details-modal").style.display = "block";
+  document.body.style.overflow = "hidden";
+}
+
+function closeDetailsModal(id) {
+  document.getElementById(id + "-details-modal").style.display = "none";
   document.body.style.overflow = "auto";
 }
 
@@ -143,3 +176,5 @@ document.addEventListener("DOMContentLoaded", generateServices());
 window.openModal = openModal;
 window.closeModal = closeModal;
 window.contactUs = contactUs;
+window.openDetailsModal = openDetailsModal;
+window.closeDetailsModal = closeDetailsModal;
