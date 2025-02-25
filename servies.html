@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>One-Page Website</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
+    <link rel="stylesheet" href="./styles/services.css">
     <link rel="stylesheet" href="peic.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="script.js"></script>
@@ -101,15 +101,8 @@
 
         /* Expertise Section */
         #expertise {
-            padding: 80px 20px;
             text-align: center;
             background-color: #f9f9f9;
-        }
-
-        #expertise h2 {
-            font-size: 2.5rem;
-            margin-bottom: 40px;
-            color: #007BFF;
         }
 
         .expertise-grid {
@@ -667,12 +660,16 @@
     <section id="expertise">
 
 
-        <div class="card-item">
-            <div class="card-header">
-                <h1>Energy Bill Optimization PEIC</h1>
-                <div class="badge-container"></div>
+        <div class="container">
+        
+            <div id="services-container" class="services-container">
+                <!-- Services will be dynamically generated here -->
             </div>
-            
+        </div>
+        
+        <!-- Modal Container -->
+        <div id="modal-container">
+            <!-- Modals will be dynamically generated here -->
         </div>
 
 
@@ -746,5 +743,7 @@
            
         </div>
     </footer>
+
+    <script src="./scripts/services.js" type="module"></script>
 </body>
 </html>
