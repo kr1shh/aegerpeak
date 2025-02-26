@@ -107,6 +107,9 @@ function generateServices() {
                         </div>
                     </div>
                     <div class="modal-footer">
+                      <a href="../contact.html">
+                        <button class="btn btn-details">Connect with us</button>
+                      </a>
                         <button class="btn btn-contact" onclick="contactUs()">Contact Now</button>
                     </div>
                 </div>

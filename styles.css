@@ -376,13 +376,18 @@
     right: 20px;
     background-color: white;
     color: black;
-    font-size: 26px;
-    padding: 15px;
-    border-radius: 50%;
+    font-size: 24px;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     z-index: 1000;
     text-align: center;
-    transition: transform 0.3s ease;
+    transition: transform 0.3sease;
+    text-decoration: none;
 }
   
 .whatsapp-button:hover {
@@ -391,17 +396,22 @@
 
 .phone-button {
     position: fixed;
-    bottom: 90px;
+    bottom: 80px;
     right: 20px;
     background-color: white;
     color: black;
     font-size: 24px;
-    padding: 15px;
-    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     z-index: 1000;
     text-align: center;
-    transition: transform 0.3s ease;
+    transition: transform 0.3sease;
+    text-decoration: none;
 }
   
 .phone-button:hover {
@@ -556,4 +566,22 @@
 
 .text-center{
     text-align: center;
+}
+
+.learn-more-personal{
+    text-align: center;
+
+    a{
+        color: red;
+        text-decoration: none;
+        text-transform: capitalize;
+        font-style: italic;
+        transition: all .3s ease-in-out;
+        padding: .3rem .7rem;
+        border-radius: 50rem;
+
+        &:hover{
+            background: #ff00001c;
+        }
+    }
 }

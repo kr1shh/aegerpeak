@@ -956,6 +956,83 @@ const servicesData = [
       },
     ],
   },
+  {
+    id: "power-backup",
+    title: "Power Backup System PEIC",
+    question: "Is Your Power Backup System Ready for Emergencies?",
+    details:
+      "Power failures can disrupt operations, damage equipment, and cause financial losses. Power Backup System PEIC ensures your UPS, inverters, generators, and battery storage systems are optimized for seamless performance, energy efficiency, and long-term reliability.",
+    taglines: ["Uninterrupted Power", "Reliable Backup", "Smart Energy Management"],
+    benefits: [
+      "Ensures Uninterrupted Operations – Prevents downtime during power failures.",
+      "Optimizes Backup Efficiency – Maximizes power availability and longevity.",
+      "Reduces Energy Costs – Enhances backup system efficiency to save power.",
+      "Prevents Overloading & Failures – Protects sensitive equipment from sudden power loss.",
+      "Enhances Battery Life & Performance – Monitors and maintains battery health.",
+      "Compliance & Safety Assurance – Ensures backup systems meet safety and regulatory standards."
+    ],
+    packages: [
+      {
+        level: "basic",
+        name: "BASIC",
+        subtitle: "Standard Backup Power Checkup (For Homes & Small Businesses)",
+        target: "For Homes & Small Businesses",
+        description:
+          "Standard backup power checkup for residential and small business setups.",
+        price: "₹[X] + GST",
+        features: [
+          "Inspection of UPS & Inverter System Performance",
+          "Battery Health & Charge Retention Analysis",
+          "Basic Load Testing for Backup System",
+          "Protection Device Check (MCBs, Surge Protectors)",
+          "Basic Wiring & Connection Safety Verification"
+        ],
+        taglines: [
+          "Ideal for residential and small business owners needing reliable backup power!"
+        ]
+      },
+      {
+        level: "advanced",
+        name: "ADVANCED",
+        subtitle: "High-Performance Backup Optimization (For Commercial & Industrial Use)",
+        target: "For Commercial & Industrial Use",
+        description:
+          "High-performance backup optimization including advanced load testing, generator evaluation, power factor correction, thermal imaging, and smart energy storage optimization.",
+        price: "₹[X] + GST",
+        features: [
+          "Includes everything in BASIC, plus:",
+          "Advanced Load Testing & Balancing for Backup Systems",
+          "Generator & Transformer Performance Evaluation",
+          "Power Factor Correction for Efficient Backup Utilization",
+          "Thermal Imaging for Overheating Detection",
+          "Smart Energy Storage Optimization for Better Backup Efficiency"
+        ],
+        taglines: [
+          "Perfect for businesses needing a robust and efficient backup system!"
+        ]
+      },
+      {
+        level: "premium",
+        name: "PREMIUM",
+        subtitle: "Critical Backup Power Assurance (For Large Facilities & Data Centers)",
+        target: "For Large Facilities & Data Centers",
+        description:
+          "Critical backup power assurance including online monitoring, harmonics analysis, smart grid integration, dedicated emergency testing, and enhanced fire & surge protection.",
+        price: "₹[X] + GST",
+        features: [
+          "Includes everything in BASIC & ADVANCED, plus:",
+          "Online Monitoring System for Real-Time Performance Tracking",
+          "Harmonics Analysis & Correction for Uninterrupted Power Flow",
+          "Smart Grid & Hybrid Backup System Integration (Solar + Generator)",
+          "Dedicated Emergency Power System Testing & Failover Readiness",
+          "Fire & Surge Protection Enhancement for Backup Systems"
+        ],
+        taglines: [
+          "Best for industries, hospitals, IT parks, and data centers requiring 24/7 power reliability!"
+        ]
+      }
+    ]
+  }  
 ];
 
 export default servicesData;
