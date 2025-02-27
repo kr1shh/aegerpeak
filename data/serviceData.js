@@ -1036,3 +1036,60 @@ const servicesData = [
 ];
 
 export default servicesData;
+
+const serviceIcons = [
+  {
+    title : "Energy Bill Optimization PEIC",
+    icon : "../assets/service-icons/Energy-Bill-Optimization PEIC.png"
+  },
+  {
+    title : "Safety Assessment PEIC",
+    icon : "../assets/service-icons/Safety-Assessment-PEIC.png"
+  },
+  {
+    title : "Risk Analysis – PEIC",
+    icon : "../assets/service-icons/Risk-Analysis–PEIC.png",
+  },
+  {
+    title : "Power Reliability – PEIC",
+    icon : "../assets/service-icons/Power-Reliability.png"
+  },
+  {
+    title : "Cost Optimization – PEIC",
+    icon : "../assets/service-icons/Cost-Optimization.png"
+  },
+  {
+    title : "Machinery Efficiency Improvisation – PEIC",
+    icon : "../assets/service-icons/Machinery-Efficiency-Improvisation.png"
+  },
+  {
+    title : "Post Electrical Integrated Automation (PEIA)",
+    icon : "../assets/service-icons/Post-Electrical-Integrated-Automation.png"
+  },
+  {
+    title : "Renewable Energy Integration PEIC",
+    icon : "../assets/service-icons/Renewable-Energy-Integration.png"
+  },
+  {
+    title : "Residential PEIC",
+    icon : "../assets/service-icons/Residential.png"
+  },
+  {
+    title : "Commercial PEIC",
+    icon : "../assets/service-icons/Commercial.png"
+  },
+  {
+    title : "Industrial PEIC",
+    icon : "../assets/service-icons/Industrial.png"
+  },
+  {
+    title : "Electrical Contracting Services",
+    icon : "../assets/service-icons/Electrical-Contracting-Services.png"
+  },
+  {
+    title : "Power Backup System PEIC",
+    icon : "../assets/service-icons/Power-Backup-System.png"
+  }
+]
+
+export {serviceIcons};
