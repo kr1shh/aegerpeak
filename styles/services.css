@@ -16,6 +16,10 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px 0;
+
+    @media (max-width: 640px) {
+        width: 100%;
+    }
 }
 
 header {
@@ -221,7 +225,7 @@ header p {
 .modal {
     display: none;
     position: fixed;
-    z-index: 1000;
+    z-index: 1002;
     left: 0;
     top: 0;
     width: 100%;
@@ -293,6 +297,10 @@ header p {
 .modal-footer {
     margin-top: 20px;
     text-align: center;
+
+    @media (max-width:640px) {
+        display: flex;
+    }
 }
 
 .cta-section {
@@ -368,7 +376,7 @@ header p {
 .details-modal-container{
     display: none;
     position: fixed;
-    z-index: 1000;
+    z-index: 1002;
     left: 0;
     top: 0;
     width: 100%;
