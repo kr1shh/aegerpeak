@@ -436,3 +436,8 @@ header p {
         }
     }
 }
+
+.decoration-underline{
+    text-decoration: underline;
+    font-style: italic;
+}

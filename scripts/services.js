@@ -11,7 +11,7 @@ function generateServices() {
     serviceSection.innerHTML = `
             <div class="service-header">
                 <div class="heading-container">
-                  <h2>${service.title}</h2>
+                  <h2>${service.title} - <a href="../peic.html" class="decoration-underline">PEIC</a></h2>
                   <button onclick="openDetailsModal('${service.id}')">?</button>
                 </div>
                 <div class="taglines">

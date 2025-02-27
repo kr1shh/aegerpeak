@@ -1,7 +1,7 @@
 const servicesData = [
   {
     id: "energy",
-    title: "Energy Bill Optimization PEIC",
+    title: "Energy Bill Optimization",
     question: "Are You Spending More Than Necessary on Electricity?",
     details:
       "Our Energy Bill Optimization PEIC helps you reduce energy costs, improve system efficiency, and eliminate hidden energy losses. Through advanced diagnostics, we analyze power factor, harmonics, earth leakage, HVAC energy consumption, and smart automation solutions to help you optimize your electricity usage.",
@@ -80,7 +80,7 @@ const servicesData = [
   },
   {
     id: "safety-assessment",
-    title: "Safety Assessment PEIC",
+    title: "Safety Assessment",
     question: "Is Your Electrical System Truly Safe?",
     details:
       "Safety Assessment PEIC is designed to identify potential electrical risks, ensure compliance with safety standards, and protect lives and property. Our comprehensive evaluation helps detect faulty wiring, grounding issues, and malfunctioning protection devices, ensuring a safe and hazard-free environment for residential, commercial, and industrial spaces.",
@@ -160,7 +160,7 @@ const servicesData = [
   },
   {
     id: "risk-analysis",
-    title: "Risk Analysis – PEIC",
+    title: "Risk Analysis",
     question: "Is Your Electrical System at Risk?",
     details:
       "Our Risk Analysis PEIC evaluates potential electrical hazards, system inefficiencies, and compliance gaps to prevent costly failures. This assessment helps businesses, industries, and homeowners mitigate risks before they escalate into serious safety or operational issues.",
@@ -242,7 +242,7 @@ const servicesData = [
   },
   {
     id: "power-reliability",
-    title: "Power Reliability – PEIC",
+    title: "Power Reliability",
     question: "Is Your Power Supply Truly Reliable?",
     details:
       "Our Power Reliability PEIC ensures that your electrical system receives a stable and consistent power supply from the grid while maintaining an optimized internal distribution. This assessment helps homes, businesses, and industries prevent unexpected failures, optimize load management, and improve backup power efficiency.",
@@ -322,7 +322,7 @@ const servicesData = [
   },
   {
     id: "cost-optimization",
-    title: "Cost Optimization – PEIC",
+    title: "Cost Optimization",
     question: "Are You Spending More Than Necessary on Electrical Operations?",
     details:
       "Our Cost Optimization PEIC helps homes, businesses, and industries reduce operational costs by analyzing power consumption, detecting inefficiencies, and optimizing energy usage. It focuses on power factor correction, equipment efficiency, HVAC optimization, energy leakage prevention, and preventive maintenance to ensure your electrical system runs at its highest efficiency.",
@@ -404,7 +404,7 @@ const servicesData = [
   },
   {
     id: "machinery-efficiency",
-    title: "Machinery Efficiency Improvisation – PEIC",
+    title: "Machinery Efficiency Improvisation",
     question: "Is Your Machinery Operating at Peak Efficiency?",
     details:
       "Our Machinery Efficiency Improvisation PEIC helps businesses and industries optimize their electrical machinery for maximum efficiency, reduced energy consumption, and extended operational life. It includes machinery performance analysis, energy consumption reviews, and tailored automation solutions.",
@@ -569,7 +569,7 @@ const servicesData = [
   },
   {
     id: "renewable-energy",
-    title: "Renewable Energy Integration PEIC",
+    title: "Renewable Energy Integration",
     question:
       "Are You Ready to Integrate Renewable Energy into Your Electrical System?",
     details:
@@ -646,7 +646,7 @@ const servicesData = [
   },
   {
     id: "residential",
-    title: "Residential PEIC",
+    title: "Residential",
     question: "Is Your Home’s Electrical System Safe and Efficient?",
     details:
       "Our Residential PEIC ensures that your home's electrical system is safe, energy-efficient, and optimized for long-term reliability. It focuses on preventing electrical hazards, reducing energy bills, and enhancing backup power reliability for a secure home environment.",
@@ -729,7 +729,7 @@ const servicesData = [
   },
   {
     id: "commercial",
-    title: "Commercial PEIC",
+    title: "Commercial",
     question:
       "Is Your Commercial Electrical System Safe, Efficient, and Cost-Effective?",
     details:
@@ -816,7 +816,7 @@ const servicesData = [
   },
   {
     id: "industrial",
-    title: "Industrial PEIC",
+    title: "Industrial",
     question:
       "Is Your Industrial Electrical System Operating at Maximum Efficiency?",
     details:
@@ -958,7 +958,7 @@ const servicesData = [
   },
   {
     id: "power-backup",
-    title: "Power Backup System PEIC",
+    title: "Power Backup System",
     question: "Is Your Power Backup System Ready for Emergencies?",
     details:
       "Power failures can disrupt operations, damage equipment, and cause financial losses. Power Backup System PEIC ensures your UPS, inverters, generators, and battery storage systems are optimized for seamless performance, energy efficiency, and long-term reliability.",
