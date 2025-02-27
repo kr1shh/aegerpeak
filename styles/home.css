@@ -59,6 +59,7 @@
                 color: #e4281d;
                 font-weight: 600;
                 transition: all .3s ease-in-out;
+                cursor: pointer;
 
                 &:hover{
                     border: 1px solid #e4281d;
