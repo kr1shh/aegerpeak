@@ -16,7 +16,7 @@ const serviceIconsRender = () => {
             </div>
             <div class="service-card-footer">
                 <h3>${service.title}</h3>
-                <a href="./services.html">
+                <a href="./servies.html">
                     <button aria-label="See more about ${service.title}">
                         See more
                     </button>
