@@ -1,0 +1,134 @@
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 29;
+    padding: 1rem 5%;
+    background: white;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    gap: 2rem;
+}
+
+.hamburger {
+    
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    cursor: pointer;
+}
+
+.dropdown {
+    z-index: 2;
+    display: none;
+    flex-direction: column;
+    padding: 1rem;
+    width: 100%;
+    position: fixed;
+    top: 4rem;
+    background-color: white;
+}
+
+.dropdown a {
+    display: block;
+    text-decoration: none;
+    padding: 0.75rem 0;
+    font-size: 0.9rem;
+    color: black;
+    width: 100%;
+    text-align: center;
+    /* border-bottom: 1px solid black; */
+    transition: color 0.3s ease, font-size 0.3s ease;
+}
+
+.dropdown a:hover {
+    color: #dd0000;
+    font-size: 1rem;
+}
+
+.logo {
+    height: 50px; /* Adjust based on your logo size */
+    width: auto;;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #000;
+    font-size: 0.9rem;
+    transition: color 0.3s ease, font-size 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #dd0000;
+    font-size: 1rem;
+}
+
+.cta-container {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.cta-button {
+    padding: 0.8rem 1.5rem;
+    background: #dc0000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 1rem;
+        gap: 1rem;
+    }
+    .logo {
+        height: 40px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .nav-links {
+        display: none;
+    }
+}
+
+@media (min-width: 1024px) {
+    .hamburger {
+        display: none;
+    }
+}
+
+.dropdown.show {
+    display: flex;
+}
+
+.nav-links-social{
+    a{
+        font-size: 1.5rem;
+    }
+}
+
+.drop-nav-links{
+    display: flex;
+    width: 100%;
+    gap: 1.6rem;
+    align-items: center;
+    justify-content: center;
+
+    a{
+        margin: 0;
+        padding: 0;
+        width: auto;
+        font-size: 1.7rem;
+    }
+}
