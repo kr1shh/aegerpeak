@@ -132,3 +132,279 @@
         font-size: 1.7rem;
     }
 }
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: white;
+    color: black;
+    font-size: 24px;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    text-align: center;
+    transition: transform 0.3sease;
+    text-decoration: none;
+}
+  
+.whatsapp-button:hover {
+    transform: scale(1.1);
+}
+
+.phone-button {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    background-color: white;
+    color: black;
+    font-size: 24px;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    text-align: center;
+    transition: transform 0.3sease;
+    text-decoration: none;
+}
+  
+.phone-button:hover {
+    transform: scale(1.1);
+}
+
+#career-section {
+    margin: 8rem 2rem 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 1rem;
+    border-radius: 12px;
+    
+    .career-container {
+      max-width: 800px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 3rem;
+      
+      main {
+        text-align: center;
+        width: 100%;
+        
+        h1 {
+          margin-bottom: 1.5rem;
+          font-size: 2.5rem;
+          font-weight: 700;
+          color: #1e3a8a;
+          position: relative;
+          
+          &::after {
+            content: '';
+            position: absolute;
+            bottom: -0.75rem;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 3px;
+            background-color: #3b82f6;
+            border-radius: 2px;
+          }
+        }
+        
+        p {
+          font-size: 1.1rem;
+          line-height: 1.7;
+          color: #4b5563;
+          max-width: 90%;
+          margin: 0 auto;
+        }
+      }
+      
+      .career-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        width: 100%;
+        padding: 2rem;
+        background-color: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+        
+        h3 {
+          font-size: 1.75rem;
+          font-weight: 600;
+          color: #1e3a8a;
+          margin-bottom: 1rem;
+          position: relative;
+          
+          &::before {
+            content: '';
+            position: absolute;
+            bottom: -0.5rem;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 40px;
+            height: 2px;
+            background-color: #3b82f6;
+            border-radius: 2px;
+          }
+        }
+        
+        ul {
+          width: 100%;
+          list-style-type: none;
+          padding: 0;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          
+          li {
+            margin-bottom: 1rem;
+            padding-left: 1.5rem;
+            position: relative;
+            font-size: 1.05rem;
+            line-height: 1.6;
+            color: #4b5563;
+            
+            &::before {
+              content: '•';
+              position: absolute;
+              left: 0;
+              color: #3b82f6;
+              font-size: 1.2rem;
+            }
+          }
+        }
+      }
+      
+      .career-footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        width: 100%;
+        text-align: center;
+        
+        h3 {
+          font-size: 1.75rem;
+          font-weight: 600;
+          color: #1e3a8a;
+          margin-bottom: 0.5rem;
+        }
+        
+        p {
+          font-size: 1.05rem;
+          line-height: 1.7;
+          color: #4b5563;
+          max-width: 90%;
+          margin: 0 auto 1.5rem;
+        }
+        
+        a {
+          text-decoration: none;
+          
+          button {
+            padding: 0.75rem 2.5rem;
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #ffffff;
+            background-color: #2563eb;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 12px rgba(37, 99, 235, 0.25);
+            
+            &:hover {
+              background-color: #1d4ed8;
+              transform: translateY(-2px);
+              box-shadow: 0 6px 16px rgba(37, 99, 235, 0.35);
+            }
+            
+            &:focus {
+              outline: none;
+              box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.3);
+            }
+          }
+        }
+      }
+    }
+    
+    @media (max-width: 768px) {
+      margin: 6rem 1rem 3rem;
+      
+      .career-container {
+        gap: 2rem;
+        
+        main {
+          h1 {
+            font-size: 2rem;
+          }
+          
+          p {
+            font-size: 1rem;
+          }
+        }
+        
+        .career-content {
+          padding: 1.5rem;
+          
+          h3 {
+            font-size: 1.5rem;
+          }
+          
+          ul li {
+            font-size: 1rem;
+          }
+        }
+        
+        .career-footer {
+          h3 {
+            font-size: 1.5rem;
+          }
+          
+          p {
+            font-size: 1rem;
+          }
+          
+          a button {
+            padding: 0.7rem 2rem;
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+    
+    @media (max-width: 480px) {
+      margin: 5rem 0.5rem 2rem;
+      
+      .career-container {
+        gap: 1.5rem;
+        
+        main {
+          h1 {
+            font-size: 1.75rem;
+          }
+        }
+        
+        .career-content {
+          padding: 1rem;
+        }
+      }
+    }
+  }
