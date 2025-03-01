@@ -707,39 +707,31 @@
      <!-- Footer -->
      <section class="contact-section" id="contact-section">
         <h2 class="contact-title" style="color: white;">Contact Us</h2>
-        <form class="contact-form">
+        <form class="contact-form" >
+
             <div class="form-full">
-                <input type="text" placeholder=" Name *" required>
-           
+                <input type="text" name="name" placeholder="Name *" required>
             </div>
             <div class="form-full">
-                <input type="email" placeholder="Email *" required>
+                <input type="email" name="email" placeholder="Email *" required>
             </div>
             <div class="form-full">
-                <input type="email" placeholder="Adress*" required>
+                <input type="text" name="address" placeholder="Adress*" required>
             </div>
             <div class="form-row">
-                <input type="text" placeholder="Post office*" required>
-                <input type="text" placeholder="District*" required>
+                <input type="text" name="post" placeholder="Post office*" required>
+                <input type="text" name="district" placeholder="District*" required>
             </div>
             <div class="form-row">
-                <input type="text" placeholder="Building square feet area*" required>
-                <input type="text" placeholder="Age of building*" required>
+                <input type="text" name="building-area" placeholder="Building square feet area*" required>
+                <input type="text" name="building-age" placeholder="Age of building*" required>
             </div>
             
-            <div class="form-full file-input-container">
-                <label class="file-label">Electricity Bill</label>
-                <input type="file" id="file-upload">
-                <button type="button" class="file-upload-btn" onclick="document.getElementById('file-upload').click();">
-                    <svg class="upload-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
-                        <polyline points="17 8 12 3 7 8"/>
-                        <line x1="12" y1="3" x2="12" y2="15"/>
-                    </svg>
-                </button>
+            <div class="form-full">
+                <input type="text" name="last-bill" placeholder="Last electricity bill *" required>
             </div>
             <div class="form-full">
-                <textarea placeholder="Describe your problem" rows="5"></textarea>
+                <textarea placeholder="Describe your problem" name="message" rows="5"></textarea>
             </div>
             <button type="submit" class="submit-btn">Submit</button>
         </form>
@@ -774,5 +766,6 @@
 
     <script src="./scripts/services.js" type="module"></script>
     <script src="./scripts/navBarComponent.js"></script>
+    <script src="./scripts/contact.js"></script>
 </body>
 </html>
