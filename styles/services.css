@@ -441,3 +441,18 @@ header p {
     text-decoration: underline;
     font-style: italic;
 }
+
+.drop-nav-links{
+    display: flex;
+    width: 100%;
+    gap: 1.6rem;
+    align-items: center;
+    justify-content: center;
+
+    a{
+        margin: 0;
+        padding: 0;
+        width: auto !important;
+        font-size: 1.7rem;
+    }
+}
