@@ -49,7 +49,7 @@ const servicesData = [
           "Load Distribution & Balancing – Ensures stable and efficient power consumption.",
           "HVAC System Performance Optimization – Reduces unnecessary power usage.",
           "Harmonics Analysis – Detects distortions affecting equipment efficiency.",
-          "Power Factor Optimization with Capacitor Bank Solutions – Enhances power efficiency & reduces demand charges.",
+          "Customized Energy Saving Report & Action Plan.",
         ],
         taglines: [
           "Perfect for businesses looking to lower energy bills and enhance system efficiency!",
