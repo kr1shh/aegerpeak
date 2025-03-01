@@ -1032,6 +1032,81 @@ const servicesData = [
         ]
       }
     ]
+  },
+  {
+    id: "peic-365",
+    title: "PEIC 365 – Annual Electrical Preventive Maintenance & Service Plan",
+    description:
+      "PEIC 365 is a comprehensive Annual Electrical Maintenance Plan designed to ensure the safety, efficiency, and reliability of electrical systems in residential, commercial, and industrial properties. This plan provides scheduled preventive maintenance, inspections, and service support to reduce downtime, optimize energy usage, and prevent failures throughout the year.",
+    
+    benefits: [
+      "365 Days of Electrical Safety & Compliance – Regular checks to prevent hazards.",
+      "Preventive Maintenance & Risk Reduction – Early detection of issues before they escalate.",
+      "Energy Optimization for Cost Savings – Reduce wastage and lower electricity bills.",
+      "Power Factor & Harmonics Management – Improve system efficiency and stability.",
+      "HVAC, Backup Power & Electrical Load Balancing – Ensure continuous, reliable operation.",
+      "24/7 Emergency Support & Priority Service – Immediate assistance for critical failures.",
+      "Custom Reports & Performance Tracking – Get insights on system health and efficiency."
+    ],
+  
+    packages: [
+      {
+        level: "basic",
+        name: "BASIC",
+        subtitle: "Essential Preventive Maintenance & Service",
+        target: "For Homes & Small Offices",
+        features: [
+          "Half-Yearly Preventive Inspections & Maintenance – Identify and resolve potential issues.",
+          "Basic Earth Leakage Checkup – Detect and prevent minor leakages.",
+          "Basic Power Factor Analysis – Improve electrical efficiency.",
+          "Load Balancing Check – Prevent overloading and power fluctuations.",
+          "HVAC & Backup Power System Inspection – Ensure operational efficiency.",
+          "Emergency Service Support (Limited Calls) – Quick response for urgent issues."
+        ],
+        price: "₹[X] + GST",
+        tagline: "Best for residential users and small businesses needing essential maintenance & safety!"
+      },
+      {
+        level: "advanced",
+        name: "ADVANCED",
+        subtitle: "Comprehensive Electrical Maintenance & Service",
+        target: "For Commercial Establishments",
+        features: [
+          "Includes everything in BASIC, plus:",
+          "Quarterly Preventive Inspections & Reports – Regular system health monitoring.",
+          "Detailed Earth Leakage Checkup & Correction – Fix and prevent leakage issues.",
+          "Harmonics & Power Quality Analysis – Prevent system inefficiencies and disturbances.",
+          "Power Factor Optimization – Improve electrical performance and avoid penalties.",
+          "Advanced HVAC & Backup Power System Optimization – Ensure uninterrupted operation.",
+          "Energy Usage Monitoring & Reporting – Gain insights on power consumption.",
+          "Increased Emergency Service Support – Faster response and extended coverage."
+        ],
+        price: "₹[X] + GST",
+        tagline: "Ideal for businesses that require ongoing maintenance & efficiency improvements!"
+      },
+      {
+        level: "premium",
+        name: "PREMIUM",
+        subtitle: "24/7 Electrical Preventive & Maintenance Service",
+        target: "For Industries & Large-Scale Facilities",
+        features: [
+          "Includes everything in BASIC & ADVANCED, plus:",
+          "Monthly Inspections & Predictive Maintenance – Prevent system failures before they occur.",
+          "Smart Leakage Prevention & Continuous Monitoring – Avoid energy wastage.",
+          "Harmonics Filtering & Advanced Power Factor Management – Reduce electrical losses.",
+          "Comprehensive HVAC, Load Management & Backup Power Optimization – Maximize system efficiency.",
+          "Dedicated 24/7 Priority Support & Emergency Assistance – Immediate response for any failures.",
+          "Unlimited Emergency Service Calls – Full coverage for urgent electrical issues."
+        ],
+        price: "₹[X] + GST",
+        tagline: "The best choice for industries & large-scale businesses needing uninterrupted safety & efficiency!"
+      }
+    ],
+  
+    contact: {
+      message: "Ensure Year-Round Electrical Safety, Efficiency & Reliable Performance with PEIC 365!",
+      phone: "[Your Contact Info]"
+    }
   }  
 ];
 
@@ -1089,6 +1164,10 @@ const serviceIcons = [
   {
     title : "Power Backup System PEIC",
     icon : "../assets/service-icons/Power-Backup-System.png"
+  },
+  {
+    title : "PEIC 365 – Annual Electrical Preventive Maintenance & Service Plan",
+    icon : "../assets/service-icons/Safety-Assessment-PEIC.png"
   }
 ]
 
