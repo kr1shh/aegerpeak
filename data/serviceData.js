@@ -24,7 +24,8 @@ const servicesData = [
         target: "For Homes & Small Offices",
         description:
           "Essential energy optimization services for small setups looking for cost-effective energy savings.",
-        price: "₹[X] + GST",
+        price: "₹8640 + GST",
+        discount : "-65% off 3024/-",
         features: [
           "Basic Power Factor Analysis – Identifies power factor inefficiencies.",
           "Basic Earth Leakage Checkup – Detects minor leakage causing energy loss.",
@@ -42,7 +43,7 @@ const servicesData = [
         target: "For Commercial Establishments",
         description:
           "Comprehensive services for businesses looking to lower energy bills and enhance system efficiency.",
-        price: "₹[X] + GST",
+        price: "Pricing available upon assessment",
         features: [
           "Detailed Power Factor Analysis & Correction – Optimizes energy efficiency & reduces power wastage.",
           "Detailed Earth Leakage Checkup & Correction – Identifies and fixes major leakage issues.",
@@ -62,7 +63,7 @@ const servicesData = [
         target: "For Industrial Facilities & Large Businesses",
         description:
           "The ultimate solution for industries and high-energy businesses aiming for maximum savings.",
-        price: "₹[X] + GST",
+        price: "Pricing available upon assessment",
         features: [
           "Smart Automation & IoT-Based Energy Monitoring – Track energy use in real time.",
           "Predictive Maintenance & Cost-Saving Strategies – Prevent energy waste before it happens.",
@@ -102,7 +103,8 @@ const servicesData = [
         target: "For Homes & Small Businesses",
         description:
           "Essential electrical safety check for residential and small business setups.",
-        price: "₹[X] + GST",
+        price: "₹9460 + GST",
+        discount : "-68% off 3024/-",
         features: [
           "Inspection of Electrical Wiring & Connections – Detects loose or faulty wiring.",
           "Basic Grounding System Verification – Ensures proper earthing to prevent shocks.",
@@ -122,7 +124,7 @@ const servicesData = [
         target: "For Commercial & Industrial Use",
         description:
           "Comprehensive safety evaluation and correction services for commercial and industrial applications.",
-        price: "₹[X] + GST",
+        price: "Pricing available upon assessment",
         features: [
           "Detailed Earth Leakage Checkup & Correction – Finds hidden faults and fixes them.",
           "Verification of Grounding & Earthing Systems – Ensures safe electrical discharge.",
@@ -142,7 +144,7 @@ const servicesData = [
         target: "For Large Industrial & Critical Facilities",
         description:
           "The ultimate electrical safety solution for industrial facilities, large businesses, and mission-critical operations.",
-        price: "₹[X] + GST",
+        price: "Pricing available upon assessment",
         features: [
           "Earth Test for Safety – Ensures efficient grounding to prevent major failures.",
           "Emergency Response System Evaluation – Checks alarms, backup power, and shutdown protocols.",
@@ -187,7 +189,8 @@ const servicesData = [
         target: "For Homes & Small Offices",
         description:
           "Basic risk evaluation for identifying fundamental electrical risks.",
-        price: "₹[X] + GST",
+        price: "₹7860 + GST",
+        discount : "-70% off 2358 /-",
         features: [
           "Analysis of Electrical Infrastructure (Wiring, Circuit Breakers, Load Distribution)",
           "Basic Examination of Protection Devices (Fuses, RCCBs, Surge Protection)",
@@ -204,7 +207,7 @@ const servicesData = [
         target: "For Homes, Offices & Small Businesses",
         description:
           "Comprehensive risk analysis to prevent electrical failures and enhance system stability.",
-        price: "₹[X] + GST",
+        price: "Pricing avalable upon assessment",
         features: [
           "Thermal Imaging for Hotspot & Overheating Risk Detection",
           "Detailed Load Distribution Analysis & Overload Prevention",
@@ -224,7 +227,7 @@ const servicesData = [
         target: "For Large Businesses & Industries",
         description:
           "The most detailed risk analysis for complete electrical safety and operational efficiency.",
-        price: "₹[X] + GST",
+        price: "Pricing available upon assessment",
         features: [
           "IoT-Based Real-Time Risk Monitoring",
           "AI-Based Power Leakage & Harmonics Disturbance Detection",
@@ -349,7 +352,8 @@ const servicesData = [
         target: "For Homes & Small Offices",
         description:
           "Basic cost optimization services for small-scale energy savings.",
-        price: "₹[X] + GST",
+        price: "₹10499 + GST",
+        discount : "-68% off 3359 /-",
         features: [
           "Energy Consumption & Billing Analysis",
           "Basic Load Management & Power Factor Check",
@@ -368,7 +372,7 @@ const servicesData = [
         target: "For Homes, Offices & Small Businesses",
         description:
           "A complete cost-saving plan for improved efficiency and reduced operational costs.",
-        price: "₹[X] + GST",
+        price: "Price available upon assessment",
         features: [
           "Harmonics Screening for Power Quality Issues",
           "Detailed Power Factor Correction",
@@ -387,7 +391,7 @@ const servicesData = [
         target: "For Large Businesses & Industries",
         description:
           "The most advanced strategy for long-term cost efficiency, reliability, and savings.",
-        price: "₹[X] + GST",
+        price: "Price available upon assessment",
         features: [
           "AI-Based Predictive Energy & Cost Analysis",
           "IoT-Based Real-Time Power Quality Monitoring",
@@ -431,7 +435,8 @@ const servicesData = [
         target: "For Small-Scale Businesses & Workshops",
         description:
           "Basic machinery optimization services for small businesses and workshops.",
-        price: "₹[X] + GST",
+        price: "₹16240 + GST",
+        discount : "-62% off 6171 /-",
         features: [
           "Machinery Performance Analysis & Load Balancing",
           "Basic Power Factor Analysis",
@@ -450,7 +455,7 @@ const servicesData = [
         target: "For Medium-Sized Businesses & Factories",
         description:
           "A detailed plan for improved energy savings and machinery reliability.",
-        price: "₹[X] + GST",
+        price: "Pricing available upon assessment",
         features: [
           "Power Factor Correction for Machinery",
           "Harmonics Analysis to Prevent Power Quality Issues",
@@ -470,7 +475,7 @@ const servicesData = [
         target: "For Large Industries & Manufacturing Units",
         description:
           "The most advanced strategy for long-term efficiency, performance, and cost savings in machinery.",
-        price: "₹[X] + GST",
+        price: "Pricing available upon assessment",
         features: [
           "Real-Time Power Monitoring for Machinery",
           "Custom Harmonics Reduction & Load Optimization Strategy",
@@ -671,7 +676,8 @@ const servicesData = [
         subtitle: "Essential Home Electrical Safety Check",
         target: "For Apartments & Small Homes",
         description: "Basic safety check for home electrical systems.",
-        price: "₹[X] + GST",
+        price: "₹22699 + GST",
+        discount : "-63% off 8398 /-",
         features: [
           "Wiring & Grounding Inspection to Prevent Electrical Hazards",
           "Basic Energy Efficiency Assessment",
@@ -691,7 +697,7 @@ const servicesData = [
         target: "For Independent Homes & Villas",
         description:
           "A complete solution for safe and efficient home electricity.",
-        price: "₹[X] + GST",
+        price: "Pricing available upon assessment",
         features: [
           "Detailed Energy Efficiency Assessment & Power-Saving Solutions",
           "In-Depth Load Distribution Analysis for Stability & Performance",
@@ -712,7 +718,7 @@ const servicesData = [
         target: "For Large Homes & Luxury Villas",
         description:
           "The most advanced solution for long-term safety, efficiency, and power stability in residences.",
-        price: "₹[X] + GST",
+        price: "Pricing available upon assessment",
         features: [
           "Smart Energy Optimization for Maximum Savings",
           "Real-Time Power Monitoring & Consumption Analytics",
@@ -756,7 +762,8 @@ const servicesData = [
         target: "For Small Offices & Retail Spaces",
         description:
           "Basic electrical safety and compliance check for small commercial spaces.",
-        price: "₹[X] + GST",
+        price: "₹28499 + GST",
+        discount:"-57% off 12254 /-",
         features: [
           "Wiring & Grounding Inspection",
           "Basic Energy Efficiency Assessment",
@@ -776,7 +783,7 @@ const servicesData = [
         target: "For Medium-Sized Offices, Shops, & Warehouses",
         description:
           "A comprehensive package for improving energy efficiency and reducing operational costs.",
-        price: "₹[X] + GST",
+        price: "Pricing available upon assessment",
         features: [
           "Detailed Energy Consumption Analysis & Optimization Solutions",
           "In-Depth Load Distribution Analysis for Performance & Cost Savings",
@@ -798,7 +805,7 @@ const servicesData = [
         target: "For Large Commercial Buildings, IT Parks, & Malls",
         description:
           "The best solution for long-term energy efficiency, stability, and cost reduction in commercial properties.",
-        price: "₹[X] + GST",
+        price: "Pricing available upon assessment",
         features: [
           "Smart Energy Management & Load Balancing",
           "Real-Time Power Quality Monitoring & Consumption Analytics",
@@ -839,7 +846,8 @@ const servicesData = [
         target: "For Small Factories & Workshops",
         description:
           "Basic industrial electrical safety check for small factories and workshops.",
-        price: "₹[X] + GST",
+        price: "₹5699 + GST",
+        discount : "-68% off 1824 /-",
         features: [
           "Power Distribution System Analysis (Balanced load to prevent failures)",
           "Wiring & Grounding Inspection",

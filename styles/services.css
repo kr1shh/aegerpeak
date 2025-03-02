@@ -456,3 +456,16 @@ header p {
         font-size: 1.7rem;
     }
 }
+
+.discount-tag{
+    text-align: center;
+
+    span{
+        background-color: #ffcb4342;
+        color: #ffb900;
+        border: 2px solid #ffb900;
+        padding: .3rem .6rem;
+        border-radius: .5rem;
+        font-weight: 600;
+    }
+}

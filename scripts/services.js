@@ -56,6 +56,9 @@ function generateServices() {
                             <span class="ideal-for">${pkg.target}</span>
                             <p>${pkg.description}</p>
                             <div class="price">${pkg.price}</div>
+                            <p class="discount-tag">
+                              ${ pkg?.discount ? `<span>${pkg.discount}</span>` : "" }
+                            </p>
                             <div class="card-buttons">
                                 <button class="btn btn-details" onclick="openModal('${service.id}-${pkg.level}')">See Details</button>
                                 <button class="btn btn-contact" onclick="contactUs()">Contact Now</button>
@@ -96,6 +99,9 @@ function generateServices() {
                               .join("")}
                         </ul>
                         <p class="price">${pkg.price}</p>
+                        <p class="discount-tag" style="margin-bottom: 1rem;">
+                          ${ pkg?.discount ? `<span>${pkg.discount}</span>` : "" }
+                        </p>
                         <div class="taglines">
                           ${
                             pkg.taglines
