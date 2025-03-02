@@ -462,3 +462,40 @@
         font-size: 1.7rem;
     }
 }
+
+section.yt-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin: 4rem 0;
+    padding: 0 1rem;
+
+    .yt-video{
+        ol{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+
+            li{
+                list-style: none;
+                margin-top: 1rem;
+
+                div{
+                    background-color: #dc0000;
+                    padding: .5rem 1rem;
+                    border-radius: 1rem;
+                    border: 2px solid #dc0000;
+
+                    a{
+                        text-decoration: none;
+                        color: white;
+                    }
+                }
+
+            }
+        }
+    }
+}
