@@ -1054,7 +1054,7 @@ const servicesData = [
   {
     id: "peic-365",
     title: "PEIC 365 – Annual Electrical Preventive Maintenance & Service Plan",
-    description:
+    details:
       "PEIC 365 is a comprehensive Annual Electrical Maintenance Plan designed to ensure the safety, efficiency, and reliability of electrical systems in residential, commercial, and industrial properties. This plan provides scheduled preventive maintenance, inspections, and service support to reduce downtime, optimize energy usage, and prevent failures throughout the year.",
     
     benefits: [
