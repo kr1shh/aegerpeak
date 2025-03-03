@@ -1184,7 +1184,7 @@ const serviceIcons = [
     icon : "../assets/service-icons/Power-Backup-System.png"
   },
   {
-    title : "PEIC 365 – Annual Electrical Preventive Maintenance & Service Plan",
+    title : "PEIC 365 - Annual maintenance",
     icon : "../assets/service-icons/Safety-Assessment-PEIC.png"
   }
 ]
