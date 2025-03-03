@@ -1152,7 +1152,7 @@ const serviceIcons = [
     icon : "../assets/service-icons/Cost-Optimization.png"
   },
   {
-    title : "Machinery Efficiency Improvisation – PEIC",
+    title : "Machinery Efficiency Improvisation",
     icon : "../assets/service-icons/Machinery-Efficiency-Improvisation.png"
   },
   {
@@ -1176,7 +1176,7 @@ const serviceIcons = [
     icon : "../assets/service-icons/Industrial.png"
   },
   {
-    title : "Electrical Contracting Services",
+    title : "Electrical Contracting",
     icon : "../assets/service-icons/Electrical-Contracting-Services.png"
   },
   {
