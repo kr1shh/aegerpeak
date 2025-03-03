@@ -19,12 +19,15 @@
         }
 
         &:nth-child(1){
-            transform: translateY(190px);
+            transform: translateY(210px);
         }
         &:nth-child(2){
-            transform: translateY(124px);
+            transform: translateY(190px);
         }
         &:nth-child(3){
+            transform: translateY(124px);
+        }
+        &:nth-child(4){
             transform: translateY(60px);
         }
     }
