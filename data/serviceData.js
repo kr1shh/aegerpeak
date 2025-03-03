@@ -918,7 +918,7 @@ const servicesData = [
   {
     id: "electrical-contracting",
     title: "Electrical Contracting Services",
-    question: "Data not available",
+    
     details:
       "We provide end-to-end electrical contracting services for residential, commercial, and industrial projects. From installation and automation to maintenance and energy efficiency, we ensure high-quality, compliant, and future-ready electrical systems with a 5-year preventive maintenance plan.",
     taglines: ["Safe", "Reliable", "Future-Ready", "Maintenance-Backed"],

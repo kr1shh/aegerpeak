@@ -486,11 +486,12 @@
     display: inline-block;
     width: .5rem;
     height: .5rem;
-    background-color: #000;
+    background-color: #0073e6;
     border-radius: 50rem;
-    opacity: 0;
+    opacity: 1;
     transition: opacity .4s ease-in-out;
     margin-top: .5rem;
+    margin-right: .5rem;
 
     @media (max-width:768px){
         opacity: 1;
@@ -507,9 +508,10 @@
     }
 
     p {
-        transform: translateX(-10px);
+        transform: translateX(0px);
         transition: all .3s ease-in-out;
         text-align: start;
+        width: 100%;
 
         @media (max-width:768px){
             transform: translateX(0);
@@ -585,4 +587,13 @@
             background: #ff00001c;
         }
     }
+}
+
+.about-content-container{
+    background-color: #5ba5f029;
+    border-radius: .8rem;
+    padding: .4rem .8rem;
+    border: 1px solid #0073e6;
+    color: #0073e6;
+    font-weight: 600;
 }

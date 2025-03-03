@@ -54,7 +54,7 @@ function generateServices() {
                         </div>
                         <div class="card-body">
                             <span class="ideal-for">${pkg.target}</span>
-                            <p>${pkg.description}</p>
+                            <p>${pkg.description ? pkg.description : "" }</p>
                             <div class="price">${pkg.price} <span class="before-price">${pkg.beforePrice ? pkg.beforePrice : "" }</span> + GST</div>
                             <p class="discount-tag">
                               ${ pkg?.discount ? `<span>${pkg.discount}</span>` : "" }
@@ -134,7 +134,7 @@ function generateServices() {
                   <button class="details-modal-close" onclick="closeDetailsModal('${service.id}')">&times;</button>
                   <div class="details-modal-header">
                       <h1>${service.title}</h1>
-                      <span>${service.question}</span>
+                      <span>${service.question ? service.question : "" }</span>
                   </div>
                   <div class="details-modal-content">
                       ${service.details}
