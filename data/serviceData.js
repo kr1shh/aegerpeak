@@ -24,8 +24,9 @@ const servicesData = [
         target: "For Homes & Small Offices",
         description:
           "Essential energy optimization services for small setups looking for cost-effective energy savings.",
-        price: "₹8640 + GST",
-        discount : "-65% off 3024/-",
+        price: "₹3024",
+        beforePrice : "₹8640",
+        discount : "-65% off",
         features: [
           "Basic Power Factor Analysis – Identifies power factor inefficiencies.",
           "Basic Earth Leakage Checkup – Detects minor leakage causing energy loss.",
@@ -103,8 +104,9 @@ const servicesData = [
         target: "For Homes & Small Businesses",
         description:
           "Essential electrical safety check for residential and small business setups.",
-        price: "₹9460 + GST",
-        discount : "-68% off 3024/-",
+        price: "₹3024",
+        beforePrice : "₹9460",
+        discount : "-68% off",
         features: [
           "Inspection of Electrical Wiring & Connections – Detects loose or faulty wiring.",
           "Basic Grounding System Verification – Ensures proper earthing to prevent shocks.",
@@ -189,8 +191,9 @@ const servicesData = [
         target: "For Homes & Small Offices",
         description:
           "Basic risk evaluation for identifying fundamental electrical risks.",
-        price: "₹7860 + GST",
-        discount : "-70% off 2358 /-",
+        price: "₹2358",
+        beforePrice : "₹7860",
+        discount : "-70% off",
         features: [
           "Analysis of Electrical Infrastructure (Wiring, Circuit Breakers, Load Distribution)",
           "Basic Examination of Protection Devices (Fuses, RCCBs, Surge Protection)",
@@ -352,8 +355,9 @@ const servicesData = [
         target: "For Homes & Small Offices",
         description:
           "Basic cost optimization services for small-scale energy savings.",
-        price: "₹10499 + GST",
-        discount : "-68% off 3359 /-",
+        price: "₹3359",
+        beforePrice : "₹10499",
+        discount : "-68% off",
         features: [
           "Energy Consumption & Billing Analysis",
           "Basic Load Management & Power Factor Check",
@@ -435,8 +439,9 @@ const servicesData = [
         target: "For Small-Scale Businesses & Workshops",
         description:
           "Basic machinery optimization services for small businesses and workshops.",
-        price: "₹16240 + GST",
-        discount : "-62% off 6171 /-",
+        price: "₹6171",
+        beforePrice : "₹16240",
+        discount : "-62% off",
         features: [
           "Machinery Performance Analysis & Load Balancing",
           "Basic Power Factor Analysis",
@@ -676,8 +681,9 @@ const servicesData = [
         subtitle: "Essential Home Electrical Safety Check",
         target: "For Apartments & Small Homes",
         description: "Basic safety check for home electrical systems.",
-        price: "₹22699 + GST",
-        discount : "-63% off 8398 /-",
+        price: "₹8398",
+        beforePrice : "₹22699",
+        discount : "-63% off",
         features: [
           "Wiring & Grounding Inspection to Prevent Electrical Hazards",
           "Basic Energy Efficiency Assessment",
@@ -762,8 +768,9 @@ const servicesData = [
         target: "For Small Offices & Retail Spaces",
         description:
           "Basic electrical safety and compliance check for small commercial spaces.",
-        price: "₹28499 + GST",
-        discount:"-57% off 12254 /-",
+        price: "₹12254",
+        beforePrice : "₹28499",
+        discount:"-57% off",
         features: [
           "Wiring & Grounding Inspection",
           "Basic Energy Efficiency Assessment",
@@ -846,8 +853,9 @@ const servicesData = [
         target: "For Small Factories & Workshops",
         description:
           "Basic industrial electrical safety check for small factories and workshops.",
-        price: "₹5699 + GST",
-        discount : "-68% off 1824 /-",
+        price: "₹1824",
+        beforePrice : "₹5699",
+        discount : "-68% off",
         features: [
           "Power Distribution System Analysis (Balanced load to prevent failures)",
           "Wiring & Grounding Inspection",
@@ -987,8 +995,9 @@ const servicesData = [
         target: "For Homes & Small Businesses",
         description:
           "Standard backup power checkup for residential and small business setups.",
-        price: "₹5699 + GST",
-        discount : "-68% off 1824 /-",
+        price: "₹1824",
+        beforePrice : "₹5699",
+        discount : "-68% off",
         features: [
           "Inspection of UPS & Inverter System Performance",
           "Battery Health & Charge Retention Analysis",

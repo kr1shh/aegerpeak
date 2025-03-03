@@ -55,7 +55,7 @@ function generateServices() {
                         <div class="card-body">
                             <span class="ideal-for">${pkg.target}</span>
                             <p>${pkg.description}</p>
-                            <div class="price">${pkg.price}</div>
+                            <div class="price">${pkg.price} <span class="before-price">${pkg.beforePrice ? pkg.beforePrice : "" }</span> + GST</div>
                             <p class="discount-tag">
                               ${ pkg?.discount ? `<span>${pkg.discount}</span>` : "" }
                             </p>
@@ -98,7 +98,7 @@ function generateServices() {
                               .map((feature) => `<li>${feature}</li>`)
                               .join("")}
                         </ul>
-                        <p class="price">${pkg.price}</p>
+                        <p class="price">${pkg.price} <span class="before-price">${pkg.beforePrice ? pkg.beforePrice : "" }</span> + GST</p>
                         <p class="discount-tag" style="margin-bottom: 1rem;">
                           ${ pkg?.discount ? `<span>${pkg.discount}</span>` : "" }
                         </p>
