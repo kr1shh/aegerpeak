@@ -987,7 +987,8 @@ const servicesData = [
         target: "For Homes & Small Businesses",
         description:
           "Standard backup power checkup for residential and small business setups.",
-        price: "₹[X] + GST",
+        price: "₹5699 + GST",
+        discount : "-68% off 1824 /-",
         features: [
           "Inspection of UPS & Inverter System Performance",
           "Battery Health & Charge Retention Analysis",
@@ -1006,7 +1007,7 @@ const servicesData = [
         target: "For Commercial & Industrial Use",
         description:
           "High-performance backup optimization including advanced load testing, generator evaluation, power factor correction, thermal imaging, and smart energy storage optimization.",
-        price: "₹[X] + GST",
+        price: "Price available upon assessment",
         features: [
           "Includes everything in BASIC, plus:",
           "Advanced Load Testing & Balancing for Backup Systems",
@@ -1026,7 +1027,7 @@ const servicesData = [
         target: "For Large Facilities & Data Centers",
         description:
           "Critical backup power assurance including online monitoring, harmonics analysis, smart grid integration, dedicated emergency testing, and enhanced fire & surge protection.",
-        price: "₹[X] + GST",
+        price: "Price available upon assessment",
         features: [
           "Includes everything in BASIC & ADVANCED, plus:",
           "Online Monitoring System for Real-Time Performance Tracking",
