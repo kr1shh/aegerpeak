@@ -275,7 +275,7 @@ const servicesData = [
         target: "For Homes & Small Offices",
         description:
           "Basic power stability check to ensure a stable external and on-site power distribution.",
-        price: "₹[X] + GST",
+        price: "Pricing available upon assessment",
         features: [
           "Grid Connection Analysis for Stable External Power",
           "Basic On-Site Power Distribution Assessment",
@@ -293,7 +293,7 @@ const servicesData = [
         target: "For Homes, Offices & Small Businesses",
         description:
           "A complete power reliability assessment to improve efficiency and prevent failures.",
-        price: "₹[X] + GST",
+        price: "Pricing available upon assessment",
         features: [
           "Detailed Grid Stability & Voltage Fluctuation Analysis",
           "Advanced Load Distribution & Optimization Check",
@@ -312,7 +312,7 @@ const servicesData = [
         target: "For Large Businesses & Industries",
         description:
           "The ultimate solution for uninterrupted power supply and operational stability.",
-        price: "₹[X] + GST",
+        price: "Pricing available upon assessment",
         features: [
           "IoT-Based Real-Time Monitoring for Power Stability",
           "AI-Based Predictive Failure & Load Analysis",
@@ -524,7 +524,7 @@ const servicesData = [
         target: "For Homes & Small Businesses",
         description:
           "Basic automation and energy-saving improvements for small setups.",
-        price: "₹[X] + GST",
+        price: "Pricing available upon assessment",
         features: [
           "Automated Lighting Systems (Motion sensors, dimming controls for energy efficiency)",
           "Basic HVAC Automation (Smart temperature regulation for comfort and savings)",
@@ -543,7 +543,7 @@ const servicesData = [
         target: "For Commercial & Industrial Use",
         description:
           "Advanced automation solutions with real-time energy management for businesses.",
-        price: "₹[X] + GST",
+        price: "Pricing available upon assessment",
         features: [
           "Advanced Energy Management System (EMS) with Real-Time Load Balancing",
           "HVAC System Automation & Efficiency Optimization",
@@ -562,7 +562,7 @@ const servicesData = [
         target: "For Large Industrial & Smart Grid Solutions",
         description:
           "The ultimate solution for fully automated, intelligent electrical systems.",
-        price: "₹[X] + GST",
+        price: "Pricing available upon assessment",
         features: [
           "AI-Based Predictive Energy Management & Fault Detection",
           "Complete Smart Grid & Renewable Energy Integration (Solar, Wind, Hybrid Systems)",
@@ -602,7 +602,7 @@ const servicesData = [
         target: "For Homes & Small Businesses",
         description:
           "Basic renewable energy integration with solar PV systems and grid-tied setup.",
-        price: "₹[X] + GST",
+        price: "Pricing available upon assessment",
         features: [
           "Solar Energy Integration – Installation of photovoltaic (PV) systems to harness solar power.",
           "Grid-Tied System Setup – Connecting solar energy to supplement grid power.",
@@ -620,7 +620,7 @@ const servicesData = [
         target: "For Commercial & Industrial Use",
         description:
           "Enhanced renewable energy systems combining solar, wind, and advanced battery storage.",
-        price: "₹[X] + GST",
+        price: "Pricing available upon assessment",
         features: [
           "Wind Energy Systems – Integration of wind turbines for power generation in suitable locations.",
           "Hybrid Renewable Energy System – Combining solar, wind, and conventional energy for stability.",
@@ -639,7 +639,7 @@ const servicesData = [
         target: "For Large Industrial & Smart City Applications",
         description:
           "The ultimate solution for large-scale, intelligent renewable energy integration.",
-        price: "₹[X] + GST",
+        price: "Pricing available upon assessment",
         features: [
           "Fully Off-Grid Renewable Energy Systems – Independent power solutions for complete energy security.",
           "Industrial-Grade Hybrid Systems – Integration of solar, wind, biomass, or hydro energy.",
@@ -853,8 +853,8 @@ const servicesData = [
         target: "For Small Factories & Workshops",
         description:
           "Basic industrial electrical safety check for small factories and workshops.",
-        price: "₹1824",
-        beforePrice : "₹5699",
+        price: "₹16149",
+        beforePrice : "₹42499",
         discount : "-68% off",
         features: [
           "Power Distribution System Analysis (Balanced load to prevent failures)",
@@ -877,7 +877,7 @@ const servicesData = [
         target: "For Medium-Sized Factories & Processing Units",
         description:
           "A must-have plan for medium-scale industries aiming for efficiency and cost reduction.",
-        price: "₹[X] + GST",
+        price: "Pricing available upon assessment",
         features: [
           "Detailed Power Distribution System Analysis (For optimized load balancing)",
           "In-Depth Energy Consumption Analysis (Minimize wastage and cut electricity costs)",
@@ -899,7 +899,7 @@ const servicesData = [
         target: "For Large Factories & Manufacturing Units",
         description:
           "The best solution for large industries seeking maximum efficiency, reliability, and long-term savings.",
-        price: "₹[X] + GST",
+        price: "Pricing available upon assessment",
         features: [
           "Customized Industrial Automation Assessment (PLC systems, motor controls, process automation)",
           "Real-Time Power Quality Monitoring & Consumption Analytics",
@@ -939,7 +939,7 @@ const servicesData = [
         target: "For Homes & Small Businesses",
         description:
           "Essential electrical contracting services for safe and reliable installations.",
-        price: "₹[X] + GST",
+        price: "Pricing available upon assessment",
         features: [
           "Electrical wiring & structured cabling installation",
           "Panel board setup & load balancing",
@@ -960,7 +960,7 @@ const servicesData = [
         target: "For Commercial & Industrial Projects",
         description:
           "Comprehensive solutions for robust electrical infrastructure and automation.",
-        price: "₹[X] + GST",
+        price: "Pricing available upon assessment",
         features: [
           "Includes everything in BASIC",
           "Power distribution panel installation & circuit load management",
@@ -1081,7 +1081,7 @@ const servicesData = [
           "HVAC & Backup Power System Inspection – Ensure operational efficiency.",
           "Emergency Service Support (Limited Calls) – Quick response for urgent issues."
         ],
-        price: "₹[X] + GST",
+        price: "Pricing available upon assessment",
         tagline: "Best for residential users and small businesses needing essential maintenance & safety!"
       },
       {
@@ -1099,7 +1099,7 @@ const servicesData = [
           "Energy Usage Monitoring & Reporting – Gain insights on power consumption.",
           "Increased Emergency Service Support – Faster response and extended coverage."
         ],
-        price: "₹[X] + GST",
+        price: "Pricing available upon assessment",
         tagline: "Ideal for businesses that require ongoing maintenance & efficiency improvements!"
       },
       {
@@ -1116,7 +1116,7 @@ const servicesData = [
           "Dedicated 24/7 Priority Support & Emergency Assistance – Immediate response for any failures.",
           "Unlimited Emergency Service Calls – Full coverage for urgent electrical issues."
         ],
-        price: "₹[X] + GST",
+        price: "Pricing available upon assessment",
         tagline: "The best choice for industries & large-scale businesses needing uninterrupted safety & efficiency!"
       }
     ],
