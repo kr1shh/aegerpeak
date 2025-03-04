@@ -970,6 +970,27 @@ const servicesData = [
           "Ideal for large-scale projects requiring advanced electrical solutions!",
         ],
       },
+      {
+        level: "premium",
+        name: "PREMIUM",
+        subtitle: "Large-Scale Electrical Contracting",
+        target: "For Factories, IT Parks & Large Facilities",
+        description:
+          "Comprehensive solutions for robust electrical infrastructure and automation.",
+        price: "Pricing available upon assessment",
+        features: [
+          "Includes everything in BASIC, Plus",
+          "Power distribution panel installation & circuit load management",
+          "Transformer & generator installation & integration",
+          "Advanced surge protection & voltage regulation",
+          "Smart automation for lighting & energy efficiency",
+          "1-Year Service Warranty",
+          "5-Year Preventive Maintenance (Quarterly inspections & corrective actions)",
+        ],
+        taglines: [
+          "Ideal for large-scale projects requiring advanced electrical solutions!",
+        ],
+      },
     ],
   },
   {

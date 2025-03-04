@@ -597,3 +597,10 @@
     color: #0073e6;
     font-weight: 600;
 }
+
+.hero-main-text{
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-style: italic;
+    color: #003366;
+}
