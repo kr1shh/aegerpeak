@@ -72,6 +72,11 @@ header p {
 .heading-container h2{
     font-size: 1.8rem;
     color: #2a5298;
+    width: 100%;
+    
+    @media (min-width: 640px) {
+        width: auto;
+    }
 }
 
 .heading-container button{
