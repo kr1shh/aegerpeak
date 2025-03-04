@@ -76,6 +76,7 @@ header p {
     
     @media (min-width: 640px) {
         width: auto;
+        max-width: 60%;
     }
 }
 
