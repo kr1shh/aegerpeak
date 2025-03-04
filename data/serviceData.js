@@ -275,7 +275,9 @@ const servicesData = [
         target: "For Homes & Small Offices",
         description:
           "Basic power stability check to ensure a stable external and on-site power distribution.",
-        price: "Pricing available upon assessment",
+        price: "₹3024",
+        beforePrice : "₹8640",
+        discount : "-65% off",
         features: [
           "Grid Connection Analysis for Stable External Power",
           "Basic On-Site Power Distribution Assessment",
@@ -853,9 +855,7 @@ const servicesData = [
         target: "For Small Factories & Workshops",
         description:
           "Basic industrial electrical safety check for small factories and workshops.",
-        price: "₹16149",
-        beforePrice : "₹42499",
-        discount : "-68% off",
+        price: "Pricing available upon assessment",
         features: [
           "Power Distribution System Analysis (Balanced load to prevent failures)",
           "Wiring & Grounding Inspection",
